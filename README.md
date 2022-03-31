@@ -12,11 +12,9 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 * Brayon Matheus da Silva Duarte
-* Eder Seikitsi Arashiro Costa
 * Gina Rocha Dutra
 * Jonatas Fernandes Ferreira
 * Matheus Eugênio Moreira
-* Nikollas Rodrigues Viana Silva
 * Thiago Vinicius Costa Guimaraes
 
 ## Orientador
