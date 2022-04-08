@@ -16,6 +16,8 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Jonatas Fernandes Ferreira
 * Matheus Eugênio Moreira
 * Thiago Vinicius Costa Guimaraes
+* Eder seikitsi arashiro costa
+* Nikollas Rodrigues Viana Silva
 
 ## Orientador
 
