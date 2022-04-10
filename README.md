@@ -13,7 +13,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 * Brayon Matheus da Silva Duarte
 * Gina Rocha Dutra
-* Jonatas Fernandes Ferreira
+* Jônatas Fernandes Ferreira
 * Matheus Eugênio Moreira
 * Thiago Vinicius Costa Guimaraes
 * Eder seikitsi arashiro costa
