@@ -23,12 +23,11 @@ Portanto, ele precisa utilizar aplicativos no seu celular para solicitar o taxi,
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação web deverá permitir que o usuário aprenda como utilizar um aplicativo de taxi através de seu celular.| ALTA | 
-|RF-002| A aplicação web deverá permitir que o usuário aprenda como utilizar o WhatsApp para troca de mensagens e para encaminhamento de arquivos.
-| ALTA |
+|RF-001| A aplicação web deverá permitir que o usuário aprenda como utilizar um aplicativo de taxi através de seu celular| ALTA | 
+|RF-002| A aplicação web deverá permitir que o usuário aprenda como utilizar o WhatsApp para troca de mensagens e para encaminhamento de arquivos | ALTA |
 |RF-003|
 |RF-004|
-|RF-005| A aplicação web deverá permitir que o usuário consiga extrair um relatório que apresente o número de acessos de cada tutorial. | ALTA |
+|RF-005| A aplicação web deverá permitir que o usuário consiga extrair um relatório que apresente o número de acessos de cada tutorial | ALTA |
 |RF-006| A aplicação web deverá permitir que o usuário envie pesquisa de satisfação para os usuários e receba as respostas. | ALTA |
 
 
