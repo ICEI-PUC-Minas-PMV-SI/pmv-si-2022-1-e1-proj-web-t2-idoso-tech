@@ -15,7 +15,7 @@ Portanto, ele precisa utilizar aplicativos no seu celular para solicitar o taxi,
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Aposentado, sozinho e usuário do sistema | solicitar um taxi através de meu celular| poder ir as sessões de fisioterapia semanalmente |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|coordenador de CX | enviar uma pesquisa para os clientes que contenha perguntas avaliativas quanto ao nível de satisfação do cliente. Preciso também receber as respostas.| analisar o nível de satisfação do usuário. |
 
 
 
