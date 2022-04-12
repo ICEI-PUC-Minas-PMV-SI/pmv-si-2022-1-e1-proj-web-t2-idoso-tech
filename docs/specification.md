@@ -6,27 +6,30 @@ Outra necessidade do Ar. Adenir é realizar a marcação das sessões de fisiote
 Portanto, ele precisa utilizar aplicativos no seu celular para solicitar o taxi, agendar as sessões e enviar arquivos.
 
 2) Coordenador de CX que deseja acompanhar o interesse e acesso dos usuários em cada tutorial e realizar pesquisa de satisfação com os clientes.
-
+3)Sra. Marli é aposentada gosta muito de ler e é muito extrovertida. Ela não teve uma vida muito fácil uma vez que seu pai não foi presente e ela teve que ajudar a mãe desde muito cedo em casa, fazendo com que assim nunca tenha conseguido realizar seu sonho de cursar psicologia . Agora com 65 anos ela quer realizar esse seu sonho, mas ela já possui restrições físicas então ela resolveu fazer uma graduação à distância.
+Portanto, ela precisa de uma aplicação web capaz de ajudar Marli compreender plataformas de estudos complementares como o youtube e WhatsApp.
 
 
 ## Histórias de Usuários
+
 
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Aposentado, sozinho e usuário do sistema | solicitar um taxi através de meu celular| poder ir as sessões de fisioterapia semanalmente |
 |coordenador de CX | enviar uma pesquisa para os clientes que contenha perguntas avaliativas quanto ao nível de satisfação do cliente. Preciso também receber as respostas.| analisar o nível de satisfação do usuário. |
-
-
-
-### Requisitos Funcionais
+|Aposentada , sozinha e usuária da aplicação |Acessar um vídeo no youtube |fixar meus conhecimentos  na matéria com contes  complementares |
+| aposentada , sozinha e usuária da aplicação |Criar um grupo no WhatsApp |reunir com meus colegas a fim de realizar uma tarefa em grupo |
+### Requisitos Funcionai
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001| A aplicação web deverá permitir que o usuário aprenda como utilizar um aplicativo de taxi através de seu celular| ALTA | 
 |RF-002| A aplicação web deverá permitir que o usuário aprenda como utilizar o WhatsApp para troca de mensagens e para encaminhamento de arquivos | ALTA |
-|RF-003|
-|RF-004|
+|RF-003| |A aplicação deve ser capaz de ensinar o usuário  como acessar vídeos no youtube. |ALTA |
+
+|RF-004||A aplicação deve ser capaz de auxiliá-la a criação de grupos no WhatsApp |ALTA |
+
 |RF-005| A aplicação web deverá permitir que o usuário consiga extrair um relatório que apresente o número de acessos de cada tutorial | ALTA |
 |RF-006| A aplicação web deverá permitir que o usuário envie pesquisa de satisfação para os usuários e receba as respostas. | ALTA |
 
