@@ -12,7 +12,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 * Brayon Matheus da Silva Duarte
-* Gina Rocha Dutra
+* Gina Rocha 
 * Jônatas Fernandes Ferreira
 * Matheus Eugênio Moreira
 * Thiago Vinicius Costa Guimaraes
