@@ -17,7 +17,7 @@ Maria gostaria de viajar mais, conhecer outros estados e países. Para isso, Mar
 preços de passagens aéreas na internet, descobrir os períodos mais baratos, comprar as passagens e salvar as 
 informações do localizador em seu smartphone.
 
-Vitoria Cristina tem 66 anos, casada, costureira por profissão. Vive em Belo Horizonte Ganhou um aparelho telefone android no último mês de 2021. Para comemorar o ano novo, na praia, ela gostaria de fotografar esse momento incrível, para postar no instagram e compartilhar com seus amigos e familiares. Sabendo que Pedro, o seu vizinho desenvolveu um projeto o “IDOSO TECH’’, a senhora Cristina se interessou pelo assunto, principalmente por ter dúvidas ao utilizar o telefone. 
+  5. Vitoria Cristina tem 66 anos, casada, costureira por profissão. Vive em Belo Horizonte Ganhou um aparelho telefone android no último mês de 2021. Para comemorar o ano novo, na praia, ela gostaria de fotografar esse momento incrível, para postar no instagram e compartilhar com seus amigos e familiares. Sabendo que Pedro, o seu vizinho desenvolveu um projeto o “IDOSO TECH’’, a senhora Cristina se interessou pelo assunto, principalmente por ter dúvidas ao utilizar o telefone. 
 
 
 
