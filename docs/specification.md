@@ -32,6 +32,8 @@ informações do localizador em seu smartphone.
 |Aposentada, usuária de sistema. | Pesquisar passagens aéreas, descobrir os períodos mais baratos e comprar as passagens. | Que eu possa viajar com mais frequência. |
 |Aposentada, usuária de sistema. | Salvar as informações do localizador em meu smartphone. | Que eu tenha acesso às informações essenciais do voo, como horário do embarque e de partida, portão de embarque, QR utilizado para adentrar a área de embarque, poltrona, trecho do voo. |
 |Aposentada, sozinha e usuária da aplicação | aprender como usar aplicativos e tecnologias | satisfazer sua curiosidade, gerar novos hobbys e lazer|
+|casada, usuaria de sistema| Assistir o vídeo do Idoso tech| Aprender como tirar fotos e gravar vídeos|
+|administrador| Criar um link com o tutorial de fotografias para telefone| Permitir que possam ter conhecimento das funcionalidades do telefone.|
 
 ### Requisitos Funcionais
 | ID     | Descrição do Requisito                                                                                                                   | Prioridade |
