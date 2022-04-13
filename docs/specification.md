@@ -35,12 +35,12 @@ Vitoria Cristina tem 66 anos, casada, costureira por profissão. Vive em Belo Ho
 ### Requisitos Funcionais
 | ID     | Descrição do Requisito                                                                                                                   | Prioridade |
 |--------|------------------------------------------------------------------------------------------------------------------------------------------|------------|
-| RF-001 | A aplicação web deverá permitir que o usuário aprenda como utilizar um aplicativo de taxi através de seu celular                         | ALTA       | 
-| RF-002 | A aplicação web deverá permitir que o usuário aprenda como utilizar o WhatsApp para troca de mensagens e para encaminhamento de arquivos | ALTA       |
-| RF-003 | A aplicação deve ser capaz de ensinar o usuário  como acessar vídeos no youtube.                                                         | ALTA       |
-| RF-004 | A aplicação deve ser capaz de auxiliá-la a criação de grupos no WhatsApp                                                                 | ALTA       |
-| RF-005 | A aplicação web deverá permitir que o usuário consiga extrair um relatório que apresente o número de acessos de cada tutorial            | ALTA       |
-| RF-006 | A aplicação web deverá permitir que o usuário envie pesquisa de satisfação para os usuários e receba as respostas.                       | ALTA       |
+| RF-001 | PesquisaCadastro de Usuário (Usuário / Administrador)          | ALTA       | 
+| RF-002 | Cadastro de Tutoriais (Administrador) | ALTA       |
+| RF-003 | Pesquisa de Tutoriais por Assunto (Usuário)                                                       | ALTA       |
+| RF-004 | Cadastro de feedback do usuário para cada tutorial (Usuário)                                                           | ALTA       |
+| RF-005 | Cadastro de pesquisa de satisfação (Administrador)       | ALTA       |
+| RF-006 | Preenchimento da pesquisa de satisfação                  | ALTA       |
 | RF-007 | O sistema deve permitir que o usuário aprenda como pesquisar passagens e comprá-las.                                                     | Baixa      |
 | RF-008 | O sistema deve permitir que o usuário aprenda a salvar o localizador no celular após comprar a passagem.                                 | Baixa      |
 
