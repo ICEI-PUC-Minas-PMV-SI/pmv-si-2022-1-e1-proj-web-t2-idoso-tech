@@ -21,6 +21,8 @@ informações do localizador em seu smartphone.
 
 6) Margareth Viana tem 78 anos, é viuva, não tem formação acadêmica e atualmente mora sozinha com a visita de seus netos e filhos esporadicamente em sua casa em uma pequena cidade em Minas Gerais. Margareth era muito jovem quando se casou tendo apenas 21 anos e logo foi privada de uma vida acadêmica superior para dar lugar a uma mãe calorosa que cuidava da casa e dos filhos enquanto o marido trabalhava, por isso agora com todas as oportunidades que a tecnologia permite e com apoio de seus netos quer voltar a estudar e aprender novos hobbys. “Tenho o sonho de aprender a interagir com as mais diversas tecnologias e aproveitar o que a vida tem de melhor, afinal experiencias são tudo o que levamos da vida". (Viana, M. 04, 2022) Margareth sempre teve curiosidade com computadores, celulares e tem interesse em apronfundar seus conhecimentos, porem nunca teve a oportunidade para poder aprender mais sobre como funcionam os aplicativos e programas. Ela sempre que pode pergunta aos seus netos como lidar com tais dispositivos, entretanto, confessa ter dificuldade em absorver as informações de tutoriais e demais blogs da internet. Margareth quer aprender completamente do 0 e busca por conteúdo relevante e melhor estruturado para facilitar seu aprendizado.
 
+7) Maria das Dores tem 65 anos, e é dona de uma lojinha de variedades, da qual tira o seu sustento com o seu marido. Dona da lojinha há muitos anos, sempre aceitou como forma de pagamento, somente o dinheiro, porém, para se adaptar às novidades do mundo, começou a aceitar pagamentos através de cartões e PIX, mas para isso depende da ajuda de filhos e netos, que nem sempre estão disponíveis, para conseguir acessar o banco digital e monitorar os pagamentos. Outra necessidade sua é de se comunicar com seus familiares através do celular que ganhou da filha, tendo dificuldades de digitar no WhatsApp e ligar para seus parentes, pois se sente isolada de quem ama, por não ter meio de locomoção fácil e por muitos já não morarem mais em sua cidade. Sendo assim, Maria deseja aprender de forma descomplicada o acesso ao seu banco digital e a utilização do WhatsApp para ligar para seus parentes.
+
 ## Histórias de Usuários
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
@@ -34,6 +36,8 @@ informações do localizador em seu smartphone.
 |Aposentada, sozinha e usuária da aplicação | aprender como usar aplicativos e tecnologias | satisfazer sua curiosidade, gerar novos hobbys e lazer|
 |casada, usuaria de sistema| Assistir o vídeo do Idoso tech| Aprender como tirar fotos e gravar vídeos|
 |administrador| Criar um link com o tutorial de fotografias para telefone| Permitir que possam ter conhecimento das funcionalidades do telefone.|
+|Dona de lojinha e usuária de sistema | Como acessar e usar minha conta em Banco Digital | ter um monitoramento de minhas finanças e pagamentos. |
+|Mãe, irmã e usuária do sistema | Como mandar mensagens e fazer ligações via Whatsapp | me comunicar e me sentir próxima de meus familiares. |
 
 ### Requisitos Funcionais
 | ID     | Descrição do Requisito                                                                                                                   | Prioridade |
