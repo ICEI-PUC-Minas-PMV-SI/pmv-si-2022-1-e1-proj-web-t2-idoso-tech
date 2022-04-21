@@ -10,14 +10,14 @@ Portanto, ele precisa utilizar aplicativos no seu celular para solicitar o taxi,
 3) Sra. Marli é aposentada gosta muito de ler e é muito extrovertida. Ela não teve uma vida muito fácil uma vez que seu pai não foi presente e ela teve que ajudar a mãe desde muito cedo em casa, fazendo com que assim nunca tenha conseguido realizar seu sonho de cursar psicologia . Agora com 65 anos ela quer realizar esse seu sonho, mas ela já possui restrições físicas então ela resolveu fazer uma graduação à distância.
 Portanto, ela precisa de uma aplicação web capaz de ajudar Marli compreender plataformas de estudos complementares como o youtube e WhatsApp.
 
-4) Maria Bom Jesus, 65 anos, aposentada. Dedicou sua vida à criação dos filhos, postergando seu próprio bem estar e 
-lazer durante sua vida. Nesta idade seus filhos já são adultos, sua aposentadoria é ótima e permite que ela tenha uma 
-boa qualidade de vida. Maria foi professora e gosta de aprender novos assuntos. Com suas responsabilidades cumpridas, 
-Maria gostaria de viajar mais, conhecer outros estados e países. Para isso, Maria precisa aprender a pesquisar 
-preços de passagens aéreas na internet, descobrir os períodos mais baratos, comprar as passagens e salvar as 
+4) Maria Bom Jesus, 65 anos, aposentada. Dedicou sua vida à criação dos filhos, postergando seu próprio bem estar e
+lazer durante sua vida. Nesta idade seus filhos já são adultos, sua aposentadoria é ótima e permite que ela tenha uma
+boa qualidade de vida. Maria foi professora e gosta de aprender novos assuntos. Com suas responsabilidades cumpridas,
+Maria gostaria de viajar mais, conhecer outros estados e países. Para isso, Maria precisa aprender a pesquisar
+preços de passagens aéreas na internet, descobrir os períodos mais baratos, comprar as passagens e salvar as
 informações do localizador em seu smartphone.
 
-5) Vitoria Cristina tem 66 anos, casada, costureira por profissão. Vive em Belo Horizonte Ganhou um aparelho telefone android no último mês de 2021. Para comemorar o ano novo, na praia, ela gostaria de fotografar esse momento incrível, para postar no instagram e compartilhar com seus amigos e familiares. Sabendo que Pedro, o seu vizinho desenvolveu um projeto o “IDOSO TECH’’, a senhora Cristina se interessou pelo assunto, principalmente por ter dúvidas ao utilizar o telefone. 
+5) Vitoria Cristina tem 66 anos, casada, costureira por profissão. Vive em Belo Horizonte Ganhou um aparelho telefone android no último mês de 2021. Para comemorar o ano novo, na praia, ela gostaria de fotografar esse momento incrível, para postar no instagram e compartilhar com seus amigos e familiares. Sabendo que Pedro, o seu vizinho desenvolveu um projeto o “IDOSO TECH’’, a senhora Cristina se interessou pelo assunto, principalmente por ter dúvidas ao utilizar o telefone.
 
 6) Margareth Viana tem 78 anos, é viuva, não tem formação acadêmica e atualmente mora sozinha com a visita de seus netos e filhos esporadicamente em sua casa em uma pequena cidade em Minas Gerais. Margareth era muito jovem quando se casou tendo apenas 21 anos e logo foi privada de uma vida acadêmica superior para dar lugar a uma mãe calorosa que cuidava da casa e dos filhos enquanto o marido trabalhava, por isso agora com todas as oportunidades que a tecnologia permite e com apoio de seus netos quer voltar a estudar e aprender novos hobbys. “Tenho o sonho de aprender a interagir com as mais diversas tecnologias e aproveitar o que a vida tem de melhor, afinal experiencias são tudo o que levamos da vida". (Viana, M. 04, 2022) Margareth sempre teve curiosidade com computadores, celulares e tem interesse em apronfundar seus conhecimentos, porem nunca teve a oportunidade para poder aprender mais sobre como funcionam os aplicativos e programas. Ela sempre que pode pergunta aos seus netos como lidar com tais dispositivos, entretanto, confessa ter dificuldade em absorver as informações de tutoriais e demais blogs da internet. Margareth quer aprender completamente do 0 e busca por conteúdo relevante e melhor estruturado para facilitar seu aprendizado.
 
@@ -42,19 +42,20 @@ informações do localizador em seu smartphone.
 ### Requisitos Funcionais
 | ID     | Descrição do Requisito                                                                                                                   | Prioridade |
 |--------|------------------------------------------------------------------------------------------------------------------------------------------|------------|
-| RF-001 | Cadastro de Usuário (Usuário / Administrador)          | ALTA       | 
+| RF-001 | Cadastro de Usuário (Usuário / Administrador)          | ALTA       |
 | RF-002 | Cadastro de Tutoriais (Administrador) | ALTA       |
 | RF-003 | Pesquisa de Tutoriais por Assunto (Usuário)                                                       | ALTA       |
 | RF-004 | Cadastro de feedback do usuário para cada tutorial (Usuário)                                                           | MÉDIA       |
 | RF-005 | Cadastro de pesquisa de satisfação (Administrador)       | MÉDIA       |
 | RF-006 | Preenchimento da pesquisa de satisfação                  | MÉDIA       |
+| RF-007 | Processo de Onboarding na plataforma               | ALTA       |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA |
+|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
 
 
 ## Restrições
@@ -65,6 +66,3 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
-
-
-
