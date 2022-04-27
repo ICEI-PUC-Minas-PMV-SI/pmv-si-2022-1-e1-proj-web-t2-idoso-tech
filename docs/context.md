@@ -2,6 +2,8 @@
 
 O projeto irá abordar a inclusão de idosos a partir de 65 anos nos mais vastos meios tecnológicos. Atualmente, um dos grandes desafios deste nicho é o manuseio de dispositivos, bem como o uso da internet. Muitos se sentem excluídos  por não possuírem habilidades condizentes à nova modernidade, o que lhes traz medo ao uso. Com a chamada revolução 4.0 que estamos atravessando, fica cada vez mais difícil a vida num contexto social sem o auxílio das tecnologias e consequentemente da internet. Para o  filósofo Lévy Pierre  “toda tecnologia cria seu excluído’’ e vem sendo dessa maneira com os idosos por acreditarem serem incapazes  de lidar com desafios no manuseio de aparelhos em geral.
 
+Diversos esforços são feitos atualmente para ajudar, otimizar e simplificar o dia a dia dos idosos. Podemos encontrar muitos projetos que estão sendo elaborados, os quais justificam tal afirmativa. Um deles é o Projeto intitulado Potencialidade.com: Inclusão Digital e Transformação Social 2017, o qual sendo realizando sob a Coordenação de Michelle Nery e quem tem por objetivo desenvolver nos idosos competências e habilidades fundamentais para o uso da Tecnologia.
+
 É evidente que o uso dos recursos tecnológicos por pessoas idosas além de necessário para trabalhos, acesso à informação, e segurança também contribui positivamente na saúde uma vez que reduz riscos de Alzheimer, perda de memória e entre outros. De fato, a inclusão dos idosos ao mundo tecnológico traz grandes benefícios para estes, tais quais melhor qualidade de vida e aumento da interação social. Portanto esse projeto abordará a inclusão e recursos que podem ser utilizados para que a tecnologia não tenha seus excluídos.
 
 # Problema
@@ -46,4 +48,5 @@ https://www.correiodopovo.com.br/jornalcomtecnologia/idosos-se-adaptam-%C3%A0s-n
 https://foconomil.com.br/pt/blog/redacao-nota-1000-sobre-os-desafios-para-a-inclusao-digital-dos-idosos
 http://tede2.pucrs.br/tede2/handle/tede/3843
 https://copass-saude.com.br/posts/os-beneficios-da-tecnologia-na-vida-dos-idosos
+https://portal.poa.ifsuldeminas.edu.br/images/2020/Agosto/13/Potencialidades.pdf
 
