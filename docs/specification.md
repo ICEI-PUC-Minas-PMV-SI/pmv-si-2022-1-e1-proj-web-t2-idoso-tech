@@ -49,7 +49,6 @@ informações do localizador em seu smartphone.
 | RF-005 | Cadastro de pesquisa de satisfação (Administrador)       | MÉDIA       |
 | RF-006 | Preenchimento da pesquisa de satisfação                  | MÉDIA       |
 | RF-007 | Processo de Onboarding na plataforma               | ALTA       |
-| RF-008 | Redefinição de senha               | ALTA       |
 
 
 ### Requisitos não Funcionais
