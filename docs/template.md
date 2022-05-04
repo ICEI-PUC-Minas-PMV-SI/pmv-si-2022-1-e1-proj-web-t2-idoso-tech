@@ -1,10 +1,17 @@
 # Template padrão do site
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+![TemplatePadrao](img/templatePadrao.png)
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+### HTML
+O html esta contido na pasta paginas.
+
+### CSS
+Para definir a folha de estilo utilizou-se o framework bootstrap v5.1. 
+O método de instalação foi baixar os pacotes e copiar os arquivos do bootstrap dentro da pasta assets.
+
+### Responsividade
+Para atender o requisito de responsividade foi utilazado as classes do Bootstrap e a estratégia adotada foi
+de layout fluído (flexbox) e de 12 colunas do framework css.
+
+### Iconografia
+O projeto utilza ícones da própria biblioteca do Bootstrap.
