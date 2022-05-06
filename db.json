@@ -1,5 +1,24 @@
 {
-    "usuarios": [
-      { "id": 1, "nome": "Maria", "email": "maria@gmail.com"}
-    ]
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Maria",
+      "email": "maria@gmail.com"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "nome": "Aha-take on me",
+      "descricao": "Como instalar whatsapp em seus celular",
+      "url": "https://www.youtube.com/embed/djV11Xbc914?start=1",
+      "avaliacao": {
+        "excelente": 17,
+        "bom": 9,
+        "regular": 7,
+        "ruim": 4,
+        "pessimo": 5
+      }
+    }
+  ]
 }
