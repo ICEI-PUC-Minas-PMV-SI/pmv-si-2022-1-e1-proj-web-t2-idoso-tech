@@ -4,7 +4,7 @@ window.onload = () => {
         carregarVideo(1);
     } catch (erro) {
         console.log(`Falha ao carregar o vídeo. ${erro}`);
-        mostrarMensagem("Não foi possível carregar o vídeo.", "erro");
+        mostrarMensagem("mensagem", "Não foi possível carregar o vídeo.", "erro");
         return;
     }
 }
@@ -20,7 +20,7 @@ const mostrarEsconderAvaliacao = () => {
                 const resultado = usuario.videosAvaliados.find(id => id == videoId);
                 if(resultado) {
                     document.getElementById("avaliacao").hidden = true;
-                    mostrarMensagem("Vídeo já avaliado!", "info");
+                    mostrarMensagem("mensagem","Vídeo já avaliado!", "info");
                 }
             }
         });
@@ -82,7 +82,7 @@ const pegarVideo = async (id) => {
         .then(video => video)
         .catch(err => {
             console.log(`Falha para pegar o vídeo id ${id}. ${err}`)
-            mostrarMensagem("Ops! Não foi possível carregar o vídeo.", "erro");
+            mostrarMensagem("mensagem", "Ops! Não foi possível carregar o vídeo.", "erro");
         });
 }
 const atualizarVideo = (video) => {
@@ -97,7 +97,7 @@ const atualizarVideo = (video) => {
     }).then(response => response)
         .catch(erro => {
             console.log(`Falha para atualizar o vídeo id ${id} video ${video}. Erro ${erro}`)
-            mostrarMensagem("Ops! Não foi atualizar o vídeo.", "erro");
+            mostrarMensagem("mensagem", "Ops! Não foi atualizar o vídeo.", "erro");
         })
 }
 
@@ -140,46 +140,6 @@ const incrementarAvaliacao = (nota, avaliacao) => {
     return avaliacao;
 }
 
-// const mostrarMensagem = (texto, tipo) => {
-//     // Mostra mensagem tipo popup para o usuário.
-//     // Params: texto, é a mensagem a ser mostrada em tela. tipo é o tipo de mensagem.
-    
-//     if (!texto || !tipo) {
-//         throw TypeError("Texto ou tipo inválido.");
-//     }
-
-//     if (tipo !== "sucesso" && tipo !== "erro" && tipo !== "info" && tipo !== "alerta") {
-//         throw TypeError("Tipo inválido. Valores aceitos - sucesso, erro, info, alerta");
-//     }
-
-//     let mensagemHtml = document.getElementById("mensagem");
-//     let classe = "";
-//     switch (tipo) {
-//         case "sucesso":
-//             classe = "alert alert-success";
-//             break;
-//         case "erro":
-//             classe = "alert alert-danger";
-//             break;
-//         case "info":
-//             classe = "alert alert-info";
-//             break;
-//         case "alerta":
-//             classe = "alert alert-warning";
-//             break;
-//         default:
-//             classe = "alert alert-dark";
-//     }
-
-//     mensagemHtml.innerHTML = texto;
-//     mensagemHtml.className = classe;
-//     mensagemHtml.hidden = false;
-//     setTimeout(() => {
-//         mensagemHtml.hidden = true;
-//     }, 3000)
-// }
-
-
 
 const avaliarVideo = (nota, event) => {
     // Avalia o video selecionado.
@@ -195,7 +155,7 @@ const avaliarVideo = (nota, event) => {
                 video.avaliacao = incrementarAvaliacao(nota, video.avaliacao);
             } catch (erro) {
                 console.log(`Incrementar avaliação falhou. ${erro}`)
-                mostrarMensagem("Avaliar video falhou, tente novamente depois.", "erro");
+                mostrarMensagem("mensagem", "Avaliar video falhou, tente novamente depois.", "erro");
                 return;
             }
 
@@ -203,7 +163,7 @@ const avaliarVideo = (nota, event) => {
             atualizarVideo(video)
                 .then(response => {
                     if (response.ok) {
-                        mostrarMensagem("Video avaliado com sucesso!", "sucesso");
+                        mostrarMensagem("mensagem","Video avaliado com sucesso!", "sucesso");
                         let avaliacaoHtml = document.getElementById("avaliacao");
                         avaliacaoHtml.hidden = true;
 
