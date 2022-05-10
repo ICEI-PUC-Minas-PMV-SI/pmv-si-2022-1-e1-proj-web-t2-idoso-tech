@@ -1,5 +1,21 @@
 {
-    "usuarios": [
-      { "id": 1, "nome": "Maria", "email": "maria@gmail.com"}
-    ]
+  "usuarios": [
+    {
+      "nome": "Pedro",
+      "email": "p@p.p",
+      "senha": "abc"
+    },
+
+    {
+      "nome": "Maria",
+      "email": "maria@gmail.com",
+      "senha": "123"
+    },
+
+    {
+      "nome": "Fatima",
+      "email": "fatima@gmail.com",
+      "senha": "cde"
+    }
+  ]
 }
