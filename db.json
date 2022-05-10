@@ -13,7 +13,7 @@
   "videos": [
     {
       "id": 1,
-      "nome": "Aha-take on me",
+      "nome": "Como instalar Whatsapp",
       "descricao": "Como instalar whatsapp em seus celular",
       "url": "https://www.youtube.com/embed/djV11Xbc914?start=1",
       "avaliacao": {
@@ -21,7 +21,33 @@
         "bom": 22,
         "regular": 37,
         "ruim": 15,
-        "pessimo": 11
+        "pessimo": 0
+      }
+    },
+    {
+      "id": 1,
+      "nome": "Pedindo ubber",
+      "descricao": "Como pedir um ubber e pagar em dinheiro.",
+      "url": "https://www.youtube.com/embed/djV11Xbc914?start=1",
+      "avaliacao": {
+        "excelente": 10,
+        "bom": 15,
+        "regular": 7,
+        "ruim": 12,
+        "pessimo": 5
+      }
+    },
+    {
+      "id": 1,
+      "nome": "Comprando passagem aérea",
+      "descricao": "Como comprar passagens aéreas no 123 milhas.",
+      "url": "https://www.youtube.com/embed/djV11Xbc914?start=1",
+      "avaliacao": {
+        "excelente": 33,
+        "bom": 30,
+        "regular": 20,
+        "ruim": 10,
+        "pessimo": 7
       }
     }
   ]
