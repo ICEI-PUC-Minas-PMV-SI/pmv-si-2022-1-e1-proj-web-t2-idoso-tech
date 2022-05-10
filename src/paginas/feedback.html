@@ -30,42 +30,31 @@
             </div>
         </header>
         <main>
-            <h5>Feedback</h5>
-            <div class="table-responsive">
+            <div id="tabelaFeedback" class="table-responsive">
+                <h5>Feedback</h5>
                 <table class="table table-hover table-info">
                     <caption>Feedback dos vídeos</caption>
                     <thead>
                         <tr>
-                          <th scope="col">Vídeo</th>
-                          <th scope="col">Excelente</th>
-                          <th scope="col">Bom</th>
-                          <th scope="col">Regular</th>
-                          <th scope="col">Ruim</th>
-                          <th scope="col">Péssimo</th>
+                            <th scope="col">Vídeo</th>
+                            <th scope="col">Excelente</th>
+                            <th scope="col">Bom</th>
+                            <th scope="col">Regular</th>
+                            <th scope="col">Ruim</th>
+                            <th scope="col">Péssimo</th>
                         </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <th scope="row">Instalando TicTok</th>
-                          <td>5</td>
-                          <td>4</td>
-                          <td>2</td>
-                          <td>1</td>
-                          <td>0</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Comprando passagem aérea</th>
-                            <td>3</td>
-                            <td>5</td>
-                            <td>1</td>
-                            <td>0</td>
-                            <td>2</td>
-                          </tr>
-                      </tbody>
+                    </thead>
+                    <tbody id="corpoTabela">
+                    </tbody>
                 </table>
             </div>
         </main>
+        <footer>
+            <div id="mensagem" role="alert"></div>
+        </footer>
         <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="../js/feedback.js"></script>
+        <script src="../js/compartilhado.js"></script>
     </div>
 </body>
 
