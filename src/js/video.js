@@ -1,7 +1,7 @@
 window.onload = () => {
     try {
         // Carregar vídeo selecionado da tela de videos.
-        carregarVideo(1);
+        carregarVideo(localStorage.getItem("videoSelecionadoId"));
     } catch (erro) {
         console.log(`Falha ao carregar o vídeo. ${erro}`);
         mostrarMensagem("mensagem", "Não foi possível carregar o vídeo.", "erro");
@@ -51,7 +51,7 @@ const carregarVideo = (id) => {
         throw TypeError("Id do vídeo é obrigatório.");
     }
 
-    pegarVideo(1)
+    pegarVideo(id)
     .then(video => {
         if(video) {
             document.getElementById("video_src").src = video.url;
