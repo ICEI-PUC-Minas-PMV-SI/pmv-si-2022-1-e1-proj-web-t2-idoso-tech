@@ -19,7 +19,8 @@
             </ul>
 
             <form class="w-75">
-                <input type="search" class="form-control" placeholder="Pesquisar vídeos" aria-label="Search">
+                <input type="search" class="form-control" placeholder="Pesquisar vídeos" aria-label="Search" 
+                onkeyup="search(event.target.value)" onchange="search(event.target.value)">
             </form>
 
             <div class="dropdown text-end">
@@ -37,7 +38,7 @@
             <div class="album py-5">
                 <div class="container">
 
-                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div id="cardsContainer" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                         <div class="col">
                             <div class="card shadow-sm">
                                 <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
@@ -150,7 +151,12 @@
                 </div>
             </div>
         </main>
+        <footer>
+            <div id="mensagem" role="alert"></div>
+        </footer>
         <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="../js/videos.js"></script>
+        <script src="../js/compartilhado.js"></script>
 </body>
 
 </html>
