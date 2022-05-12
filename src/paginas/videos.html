@@ -19,7 +19,8 @@
             </ul>
 
             <form class="w-75">
-                <input type="search" class="form-control" placeholder="Pesquisar vídeos" aria-label="Search">
+                <input type="search" class="form-control" placeholder="Pesquisar vídeos" aria-label="Search" 
+                onkeyup="search(event.target.value)" onchange="search(event.target.value)">
             </form>
 
             <div class="dropdown text-end">
