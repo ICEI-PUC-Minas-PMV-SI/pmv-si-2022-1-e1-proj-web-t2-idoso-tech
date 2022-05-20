@@ -59,9 +59,15 @@ O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em 
 [Tela feedback javascript 1](js/feedback.js)
 
 [Tela feedback javascript 2](js/compartilhado.js)
+
+### tela gerenciar usuarios
+
+[tela gerenciar usuarios](paginas/gerenciarUsuarios.html)
+
+[tela gerenciar usuarios](css/gerenciarUsuarios.css)
+
 ### Tela gerenciar vídeos
 [Tela gerenciar vídeos](paginas/gerenciarVideos.html)
 
 [Tela gerenciar vídeos css](css/gerenciarVideos.css)
-
 
