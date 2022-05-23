@@ -32,3 +32,10 @@
 
 ![image](https://user-images.githubusercontent.com/91692537/168932638-36da556b-46a5-4d1e-b876-ed8af04468ed.png)
 
+9) Tela de Perguntas Frequentes (SAC):
+
+![image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-1-e1-proj-web-t2-idoso-tech/main/docs/img/SACPage.png?token=GHSAT0AAAAAABTCBRGVCXZRTEE6XLSKTHQ6YUMEXQA)
+
+8) Chat:
+
+![image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-1-e1-proj-web-t2-idoso-tech/main/docs/img/ChatPage.png?token=GHSAT0AAAAAABTCBRGVF5LJX2CDRYDHKNLGYUMEXDQ)

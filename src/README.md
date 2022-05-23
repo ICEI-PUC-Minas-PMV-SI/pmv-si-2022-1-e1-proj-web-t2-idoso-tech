@@ -47,6 +47,13 @@ O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em 
 [Tela vídeos javascript 1](js/videos.js)
 
 [Tela vídeos javascript 2](js/compartilhado.js)
+
+### Tela de SAC
+[Tela SAC](paginas/sac.html)
+
+### Tela de CHAT
+[Tela CHAT](paginas/chatPage.html)
+
 ### Tela vídeo
 [Tela vídeo](paginas/video.html)
 

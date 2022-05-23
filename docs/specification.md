@@ -51,6 +51,9 @@ informações do localizador em seu smartphone.
 | RF-007 | Processo de Onboarding na plataforma               | ALTA       |
 | RF-008 | Data de Cadastro Inicial| BAIXA   |
 | RF-009 | Disponibilidade de Conexão ON/OFF| MEDIA  |
+| RF-010 | Tela de SAC| BAIXA  |
+| RF-011 | Tela de CHAT com suporte| MEDIA  |
+
 
 ### Requisitos não Funcionais
 
