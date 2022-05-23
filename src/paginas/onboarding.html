@@ -1,77 +1,107 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>IdosoTech</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <header class="d-flex flex-wrap justify-content-between py-3 mb-4 border-bottom">
+      <header
+        class="d-flex flex-wrap justify-content-between py-3 mb-4 border-bottom"
+      >
+        <ul class="nav col-11">
+          <li>
+            <a href="index.html" class="nav-link px-2 link-secondary"
+              >Tela Inicial</a
+            >
+          </li>
+        </ul>
 
-            <ul class="nav col-11">
-                <li><a href="home.html" class="nav-link px-2 link-secondary">Tela Inicial</a></li>
-            </ul>
-
-            <div class="dropdown col-1 text-end">
-                <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="https://github.com/mdo.png" alt="perfil-usuario" width="48" height="48"
-                        class="rounded-circle">
-                </a>
-                <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
-                    <li><a class="dropdown-item" href="#">Sair</a></li>
-                </ul>
-            </div>
-        </header>
-        <main class="d-flex flex-column align-items-center">
-            <h5>Aprendendo sobre o sistema!</h5>
-            <ul class="nav nav-tabs .flex-sm-column">
-                <li class="nav-item">
-                    <a href="#video" class="nav-link active" data-bs-toggle="tab">Pesquisando Vídeo</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#tutorial" class="nav-link" data-bs-toggle="tab">Assistindo tutorial</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#avaliacao" class="nav-link" data-bs-toggle="tab">Avaliando um vídeo</a>
-                </li>
-            </ul>
-            <div class="tab-content">
-                <div class="tab-pane fade show active" id="video">
-                    <h6>Para pesquisa um vídeo siga as instruções abaixo</h6>
-                    <ol>
-                        <li>Acesse a tela inicial.</li>
-                        <li>Clique na barra superior, esta barra tem um lupa no lado direito.</li>
-                        <li>Digite as palavras que deseja pesquisar, por exemplo Como comprar passagens ?</li>
-                        <li>Espere o sistema carregar os tutoriais.</li>
-                    </ol>
-                </div>
-                <div class="tab-pane fade" id="tutorial">
-                    <h6>Para assistir um vídeo siga as instruções abaixo</h6>
-                    <ol>
-                        <li>Acesse a tela inicial.</li>
-                        <li>Espere os vídeos carregarem ou pesquise os vídeos desejados.</li>
-                        <li>Clique no vídeo desejado e espere o vídeo carregar.</li>
-                    </ol>
-                </div>
-                <div class="tab-pane fade" id="avaliacao">
-                    <h6>Para avaliar um vídeo siga as instruções abaixo</h6>
-                    <ol>
-                        <li>Assista um vídeo.</li>
-                        <li>Abaixo do vídeo clique em um dos conceitos que vão de Excelente a Péssimo.</li>
-                        <li>Pronto, vídeo avaliado.</li>
-                    </ol>
-                </div>
-            </div>
-        </main>
-        <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+        <div class="dropdown col-1 text-end">
+          <a
+            href="#"
+            class="d-block link-dark text-decoration-none dropdown-toggle"
+            id="dropdownUser1"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <img
+              src="https://github.com/mdo.png"
+              alt="perfil-usuario"
+              width="48"
+              height="48"
+              class="rounded-circle"
+            />
+          </a>
+          <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+            <li><a class="dropdown-item" href="#">Sair</a></li>
+          </ul>
+        </div>
+      </header>
+      <main class="d-flex flex-column align-items-center">
+        <h5>Aprendendo sobre o sistema!</h5>
+        <ul class="nav nav-tabs .flex-sm-column">
+          <li class="nav-item">
+            <a href="#video" class="nav-link active" data-bs-toggle="tab"
+              >Pesquisando Vídeo</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#tutorial" class="nav-link" data-bs-toggle="tab"
+              >Assistindo tutorial</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#avaliacao" class="nav-link" data-bs-toggle="tab"
+              >Avaliando um vídeo</a
+            >
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane fade show active" id="video">
+            <h6>Para pesquisa um vídeo siga as instruções abaixo</h6>
+            <ol>
+              <li>Acesse a tela inicial.</li>
+              <li>
+                Clique na barra superior, esta barra tem um lupa no lado
+                direito.
+              </li>
+              <li>
+                Digite as palavras que deseja pesquisar, por exemplo Como
+                comprar passagens ?
+              </li>
+              <li>Espere o sistema carregar os tutoriais.</li>
+            </ol>
+          </div>
+          <div class="tab-pane fade" id="tutorial">
+            <h6>Para assistir um vídeo siga as instruções abaixo</h6>
+            <ol>
+              <li>Acesse a tela inicial.</li>
+              <li>
+                Espere os vídeos carregarem ou pesquise os vídeos desejados.
+              </li>
+              <li>Clique no vídeo desejado e espere o vídeo carregar.</li>
+            </ol>
+          </div>
+          <div class="tab-pane fade" id="avaliacao">
+            <h6>Para avaliar um vídeo siga as instruções abaixo</h6>
+            <ol>
+              <li>Assista um vídeo.</li>
+              <li>
+                Abaixo do vídeo clique em um dos conceitos que vão de Excelente
+                a Péssimo.
+              </li>
+              <li>Pronto, vídeo avaliado.</li>
+            </ol>
+          </div>
+        </div>
+      </main>
+      <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
     </div>
-</body>
-
+  </body>
 </html>
