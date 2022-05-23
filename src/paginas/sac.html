@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Perguntas Frequentes</title>
+  </head>
+  <style>
+    .question {
+      border-bottom: 1px solid rgb(175, 175, 175);
+      padding: 10px 0;
+    }
+
+    .question input,
+    .question .answer {
+      display: none;
+    }
+
+    .question label {
+      display: inline-block;
+      font-weight: bold;
+      margin-bottom: 5px;
+      width: 100%;
+    }
+
+    .question input:checked ~ .answer {
+      display: block;
+    }
+    .title {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+
+  </style>
+  <body>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-between py-3 mb-4 border-bottom">
+
+          <ul class="nav col-11">
+              <li><a href="home.html" class="nav-link px-2 link-secondary">IdosoTech</a></li>
+          </ul>
+
+          <div class="dropdown col-1 text-end">
+              <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="https://avatars.githubusercontent.com/u/59825515?v=4" alt="perfil-usuario" width="48" height="48"
+                      class="rounded-circle">
+              </a>
+              <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+                  <li><a class="dropdown-item" href="#">Sair</a></li>
+              </ul>
+          </div>
+      </header>
+        <main>
+          <div class="px-4 py-5 my-5 text-center">
+            <img class="d-block mx-auto mb-4 " src="../assets/images/idoso-sac.jpeg" alt="idoso-no-computador" width="780" height="550">
+            <p class="display-5 title">Perguntas Frequentes</p>
+            <div class="col-lg-6 mx-auto">
+                <div class="question">
+                    <input type="checkbox" id="question-1" />
+                    <label for="question-1">Quem somos?</label>
+                    <div class="answer">Somos a IdosoTech</div>
+                  </div>
+                  <div class="question">
+                    <input type="checkbox" id="question-2" />
+                    <label for="question-2">Qual o Propósito da idosoTech?</label>
+                    <div class="answer">Segunda resposta.</div>
+                  </div>
+                  <div class="question">
+                    <input type="checkbox" id="question-3" />
+                    <label for="question-3">Qual o Propósito da idosoTech?</label>
+                    <div class="answer">Terceira resposta.</div>
+                  </div>
+                  <div class="question">
+                    <input type="checkbox" id="question-4" />
+                    <label for="question-4">Qual o Propósito da idosoTech?</label>
+                    <div class="answer">Quarta resposta.</div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </main>
+  </body>
+</html>
