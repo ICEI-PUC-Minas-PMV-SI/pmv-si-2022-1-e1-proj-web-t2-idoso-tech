@@ -4,11 +4,7 @@
       "id": 1,
       "nome": "Maria",
       "email": "maria@gmail.com",
-      "videosAvaliados": [
-        2,
-        1,
-        3
-      ]
+      "videosAvaliados": [2, 1, 3]
     }
   ],
   "videos": [
