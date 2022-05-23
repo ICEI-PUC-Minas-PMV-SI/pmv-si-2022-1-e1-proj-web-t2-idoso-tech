@@ -54,6 +54,7 @@ informações do localizador em seu smartphone.
 | RF-010 | Tela de SAC| BAIXA  |
 | RF-011 | Tela de CHAT com suporte| MEDIA  |
 
+
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
