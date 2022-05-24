@@ -78,3 +78,8 @@ O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em 
 
 [Tela gerenciar vídeos css](css/gerenciarVideos.css)
 
+### tela Fale conosco
+
+[tela fale conosco](paginas/faleConosco.html)
+[tela fale conosco](css/faleConosco.css)
+
