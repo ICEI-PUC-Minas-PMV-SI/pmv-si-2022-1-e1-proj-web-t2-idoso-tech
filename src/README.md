@@ -24,3 +24,63 @@ O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em 
 ### [0.1.1] - DD/MM/AAAA
 #### Adicionado
 - Telas: inicial, usuário, video, feedback, onboarding. 29/04/22
+
+## Códigos
+
+### Tela home
+[Tela Home](paginas/home.html)
+### Tela logar
+[Tela logar](paginas/logar.html)
+
+[Tela logar css](css/logar.css)
+
+[Tela logar javascript](js/logar.js)
+### Tela cadastro
+[Tela cadastro](paginas/cadastro.html)
+
+[Tela cadastro css](css/cadastro.css)
+### Tela Onboarding
+[Tela onboarding](paginas/onboarding.html)
+### Tela vídeos
+[Tela vídeos](paginas/videos.html)
+
+[Tela vídeos javascript 1](js/videos.js)
+
+[Tela vídeos javascript 2](js/compartilhado.js)
+
+### Tela de SAC
+[Tela SAC](paginas/sac.html)
+
+### Tela de CHAT
+[Tela CHAT](paginas/chatPage.html)
+
+### Tela vídeo
+[Tela vídeo](paginas/video.html)
+
+[Tela vídeo javascript 1](js/video.js)
+
+[Tela vídeo javascript 2](js/compartilhado.js)
+### Tela feedback
+[Tela feedback](paginas/feedback.html)
+
+[Tela feedback javascript 1](js/feedback.js)
+
+[Tela feedback javascript 2](js/compartilhado.js)
+
+### tela gerenciar usuarios
+
+[tela gerenciar usuarios](paginas/gerenciarUsuarios.html)
+
+[tela gerenciar usuarios](css/gerenciarUsuarios.css)
+
+### Tela gerenciar vídeos
+[Tela gerenciar vídeos](paginas/gerenciarVideos.html)
+
+[Tela gerenciar vídeos css](css/gerenciarVideos.css)
+
+### tela Fale conosco
+
+[tela fale conosco](paginas/faleConosco.html)
+
+[tela fale conosco](css/faleConosco.css)
+

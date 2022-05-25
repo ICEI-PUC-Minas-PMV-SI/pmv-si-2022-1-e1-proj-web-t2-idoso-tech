@@ -1,77 +1,145 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+<<<<<<< HEAD
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Vídeo selecionado</title>
+=======
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IdosoTech</title>
+>>>>>>> 0e819396852a0bae6dfa9edf279196461eb4a30b
 
     <!-- Bootstrap core CSS -->
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <header class="d-flex flex-wrap justify-content-between py-3 mb-4 border-bottom">
+      <header
+        class="d-flex flex-wrap justify-content-between py-3 mb-4 border-bottom"
+      >
+        <ul class="nav col-11">
+          <li>
+            <a href="index.html" class="nav-link px-2 link-secondary"
+              >Tela Inicial</a
+            >
+          </li>
+        </ul>
 
+<<<<<<< HEAD
             <ul class="nav col-11">
                 <li><a href="home.html" class="nav-link px-2 link-secondary">Vídeo selecionado</a></li>
             </ul>
+=======
+        <div class="dropdown col-1 text-end">
+          <a
+            href="#"
+            class="d-block link-dark text-decoration-none dropdown-toggle"
+            id="dropdownUser1"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <img
+              src="https://github.com/mdo.png"
+              alt="perfil-usuario"
+              width="48"
+              height="48"
+              class="rounded-circle"
+            />
+          </a>
+          <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+            <li><a class="dropdown-item" href="#">Sair</a></li>
+          </ul>
+        </div>
+      </header>
+      <main class="d-flex flex-column align-items-center">
+        <h6 id="videoTitle"></h6>
+        <div class="ratio ratio-16x9 mb-4">
+          <div id="videoId" hidden></div>
+          <iframe
+            id="video_src"
+            class="embed-responsive-item"
+            src=""
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          >
+          </iframe>
+        </div>
+>>>>>>> 0e819396852a0bae6dfa9edf279196461eb4a30b
 
-            <div class="dropdown col-1 text-end">
-                <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="https://github.com/mdo.png" alt="perfil-usuario" width="48" height="48"
-                        class="rounded-circle">
-                </a>
-                <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
-                    <li><a class="dropdown-item" href="#">Sair</a></li>
-                </ul>
+        <section id="avaliacao">
+          <h6>O que achou do vídeo ?</h6>
+          <div class="d-flex flex-column m-1">
+            <div class="form-check form-check-inline mb-2">
+              <input
+                class="form-check-input"
+                type="radio"
+                onclick="avaliarVideo(event.target.value, event)"
+                name="inlineRadioOptions"
+                id="excelente"
+                value="excelente"
+              />
+              <label class="form-check-label" for="inlineRadio1"
+                >Excelente</label
+              >
             </div>
-        </header>
-        <main class="d-flex flex-column align-items-center">
-            <h6 id="videoTitle"></h6>
-            <div class="ratio ratio-16x9 mb-4">
-                <div id="videoId" hidden></div>
-                <iframe id="video_src" class="embed-responsive-item" src=""
-                    title="YouTube video player"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
-                </iframe>
+            <div class="form-check form-check-inline mb-2">
+              <input
+                class="form-check-input"
+                type="radio"
+                onclick="avaliarVideo(event.target.value, event)"
+                name="inlineRadioOptions"
+                id="bom"
+                value="bom"
+              />
+              <label class="form-check-label" for="inlineRadio2">Bom</label>
             </div>
-            
-            <section id="avaliacao">
-                <h6>O que achou do vídeo ?</h6>
-                <div class="d-flex flex-column m-1">
-                    <div class="form-check form-check-inline mb-2">
-                        <input class="form-check-input" type="radio" onclick="avaliarVideo(event.target.value, event)" name="inlineRadioOptions" id="excelente" value="excelente">
-                        <label class="form-check-label" for="inlineRadio1">Excelente</label>
-                    </div>
-                    <div class="form-check form-check-inline mb-2">
-                        <input class="form-check-input" type="radio" onclick="avaliarVideo(event.target.value, event)" name="inlineRadioOptions" id="bom" value="bom">
-                        <label class="form-check-label" for="inlineRadio2">Bom</label>
-                    </div>
-                    <div class="form-check form-check-inline mb-2">
-                        <input class="form-check-input" type="radio" onclick="avaliarVideo(event.target.value, event)" name="inlineRadioOptions" id="regular" value="regular">
-                        <label class="form-check-label" for="inlineRadio1">Regular</label>
-                    </div>
-                    <div class="form-check form-check-inline mb-2">
-                        <input class="form-check-input" type="radio" onclick="avaliarVideo(event.target.value, event)" name="inlineRadioOptions" id="ruim" value="ruim">
-                        <label class="form-check-label" for="inlineRadio2">Ruim</label>
-                    </div>
-                    <div class="form-check form-check-inline mb-2">
-                        <input class="form-check-input" type="radio" onclick="avaliarVideo(event.target.value, event)" name="inlineRadioOptions" id="pessimo" value="pessimo">
-                        <label class="form-check-label" for="inlineRadio2">Péssimo</label>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer>
-            <div hidden id="mensagem" role="alert"></div>
-        </footer>
-        <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="../js/video.js"></script>
-        <script src="../js/compartilhado.js"></script>
+            <div class="form-check form-check-inline mb-2">
+              <input
+                class="form-check-input"
+                type="radio"
+                onclick="avaliarVideo(event.target.value, event)"
+                name="inlineRadioOptions"
+                id="regular"
+                value="regular"
+              />
+              <label class="form-check-label" for="inlineRadio1">Regular</label>
+            </div>
+            <div class="form-check form-check-inline mb-2">
+              <input
+                class="form-check-input"
+                type="radio"
+                onclick="avaliarVideo(event.target.value, event)"
+                name="inlineRadioOptions"
+                id="ruim"
+                value="ruim"
+              />
+              <label class="form-check-label" for="inlineRadio2">Ruim</label>
+            </div>
+            <div class="form-check form-check-inline mb-2">
+              <input
+                class="form-check-input"
+                type="radio"
+                onclick="avaliarVideo(event.target.value, event)"
+                name="inlineRadioOptions"
+                id="pessimo"
+                value="pessimo"
+              />
+              <label class="form-check-label" for="inlineRadio2">Péssimo</label>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div hidden id="mensagem" role="alert"></div>
+      </footer>
+      <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="../js/video.js"></script>
+      <script src="../js/compartilhado.js"></script>
     </div>
-</body>
-
+  </body>
 </html>

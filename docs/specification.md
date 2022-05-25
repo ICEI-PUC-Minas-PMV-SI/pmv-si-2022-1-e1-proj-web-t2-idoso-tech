@@ -49,6 +49,11 @@ informações do localizador em seu smartphone.
 | RF-005 | Cadastro de pesquisa de satisfação (Administrador)       | MÉDIA       |
 | RF-006 | Preenchimento da pesquisa de satisfação                  | MÉDIA       |
 | RF-007 | Processo de Onboarding na plataforma               | ALTA       |
+| RF-008 | Data de Cadastro Inicial| BAIXA   |
+| RF-009 | Disponibilidade de Conexão ON/OFF| MÉDIA   |
+| RF-010 | Tela de SAC| BAIXA  |
+| RF-011 | Tela de CHAT com suporte| MÉDIA  |
+|RF-012  | Tela fale conosco| MÉDIA|
 
 
 ### Requisitos não Funcionais
