@@ -46,3 +46,9 @@
 12) Fale Conosco
 ![fale conosco](https://user-images.githubusercontent.com/102393486/170141832-19e3f67e-06f6-4b11-8e21-ef2e2d643f7c.jpg)
 
+13) Formulário
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-1-e1-proj-web-t2-idoso-tech/blob/main/docs/img/Form.png?raw=true)
+
+14) Histórico
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-1-e1-proj-web-t2-idoso-tech/blob/main/docs/img/BrowsingHistory.png?raw=true)
+
