@@ -4,7 +4,9 @@
       "id": 1,
       "nome": "Maria",
       "email": "maria@gmail.com",
-      "videosAvaliados": [2, 1, 3]
+      "videosAvaliados": [
+        2
+      ]
     }
   ],
   "videos": [
@@ -14,7 +16,7 @@
       "descricao": "Como instalar whatsapp em seus celular",
       "url": "https://www.youtube.com/embed/djV11Xbc914?start=1",
       "avaliacao": {
-        "excelente": 40,
+        "excelente": 41,
         "bom": 22,
         "regular": 38,
         "ruim": 15,
@@ -27,7 +29,7 @@
       "descricao": "Como pedir um ubber e pagar em dinheiro.",
       "url": "https://www.youtube.com/embed/djV11Xbc914?start=1",
       "avaliacao": {
-        "excelente": 10,
+        "excelente": 11,
         "bom": 16,
         "regular": 7,
         "ruim": 12,

@@ -21,7 +21,13 @@
   },
   "homepage": "https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-1-e1-proj-web-t2-idoso-tech#readme",
   "dependencies": {
+<<<<<<< HEAD
+    "json-server": "^0.17.0"
+  },
+  "devDependencies": {}
+=======
     "json-server": "^0.17.0",
     "prettier": "^2.6.2"
   }
+>>>>>>> 0e819396852a0bae6dfa9edf279196461eb4a30b
 }
