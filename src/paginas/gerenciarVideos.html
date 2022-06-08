@@ -55,7 +55,7 @@
         <thead>
           <tr>
 
-            <th scope="col">Id</th>
+            <th scope="col">#</th>
             <th scope="col">Título</th>
             <th scope="col">Descrição</th>
             <th scope="col">Link do vídeo</th>
@@ -84,26 +84,27 @@
               <form id="video-form">
                 <div class="mb-3">
                   <label for="recipient-name" class="col-form-label">Id</label>
-                  <input type="text" class="form-control" id="produto-id">
+                  <input type="text" class="form-control" id="video-id">
                 </div>
                 <div class="mb-3">
                   <label for="recipient-name" class="col-form-label">Título</label>
-                  <input type="text" class="form-control" id="produto-nome">
+                  <input type="text" class="form-control" id="video-nome">
                 </div>
                 <div class="mb-3">
                   <label for="message-text" class="col-form-label">Descrição</label>
-                  <textarea class="form-control" id="produto-descrição"></textarea>
+                  <textarea class="form-control" id="video-descricao"></textarea>
                 </div>
                 <div class="mb-3">
                   <label for="message-text" class="col-form-label">Insira abaixo o link do vídeo</label>
-                  <textarea class="form-control" id="produto-url"></textarea>
+                  <textarea class="form-control" id="video-url"></textarea>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                  <button type="submit" class="btn btn-primary">Confirmar</button>
                 </div>
               </form>
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-              <button type="submit" class="btn btn-primary">Confirmar</button>
-            </div>
+            
           </div>
         </div>
       </div>
@@ -124,26 +125,26 @@
           <div class="modal-body">
             <form id="video-form">
               <div class="mb-3">
-                <label for="recipient-name" class="col-form-label">Id</label>
-                <input type="text" class="form-control" id="produto-id">
+                <label for="video-id" class="col-form-label">Id</label>
+                <input type="text" class="form-control" id="video-id">
               </div>
               <div class="mb-3">
-                <label for="recipient-name" class="col-form-label">Título</label>
-                <input type="text" class="form-control" id="produto-nome">
+                <label for="video-nome" class="col-form-label">Título</label>
+                <input type="text" class="form-control" id="video-nome">
               </div>
               <div class="mb-3">
-                <label for="message-text" class="col-form-label">Descrição</label>
-                <textarea class="form-control" id="produto-descrição"></textarea>
+                <label for="video-descricao" class="col-form-label">Descrição</label>
+                <textarea class="form-control" id="video-descricao"></textarea>
               </div>
               <div class="mb-3">
-                <label for="message-text" class="col-form-label">Link</label>
-                <textarea class="form-control" id="produto-url"></textarea>
+                <label for="video-url" class="col-form-label">Link</label>
+                <textarea class="form-control" id="video-url"></textarea>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="submit" class="btn btn-primary">Confirmar</button>
               </div>
             </form>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-            <button type="submit" class="btn btn-primary">Confirmar</button>
           </div>
         </div>
       </div>

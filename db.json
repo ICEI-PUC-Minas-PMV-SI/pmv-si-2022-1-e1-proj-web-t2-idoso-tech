@@ -24,30 +24,36 @@
       }
     },
     {
+      "id": "2",
+      "nome": "Como instalar Instagram",
+      "descricao": "Como instalar Instagram no seu celular",
+      "url": "https://www.youtube.com/watch?v=Hfa9h1hiUNw"
+    },
+    {
+      "id": "3",
+      "nome": "Como Instalar Facebbok ",
+      "descricao": "Como Instalar Facebbok no seu celular",
+      "url": "https://www.youtube.com/watch?v=_r8fIOHh85s"
+    }
+  ],
+  "senhas": [
+    {
+      "id": 1,
+      "nome": "Pedro",
+      "email": "pedro@hotmail.com",
+      "senha": "abc"
+    },
+    {
       "id": 2,
-      "nome": "Pedindo ubber",
-      "descricao": "Como pedir um ubber e pagar em dinheiro.",
-      "url": "https://www.youtube.com/embed/djV11Xbc914?start=1",
-      "avaliacao": {
-        "excelente": 11,
-        "bom": 16,
-        "regular": 7,
-        "ruim": 12,
-        "pessimo": 5
-      }
+      "nome": "Maria",
+      "email": "maria@gmail.com",
+      "senha": "123"
     },
     {
       "id": 3,
-      "nome": "Comprando passagem aérea",
-      "descricao": "Como comprar passagens aéreas no 123 milhas.",
-      "url": "https://www.youtube.com/embed/djV11Xbc914?start=1",
-      "avaliacao": {
-        "excelente": 34,
-        "bom": 30,
-        "regular": 21,
-        "ruim": 10,
-        "pessimo": 7
-      }
+      "nome": "Fatima",
+      "email": "fatima@gmail.com",
+      "senha": "cde"
     }
   ]
 }
