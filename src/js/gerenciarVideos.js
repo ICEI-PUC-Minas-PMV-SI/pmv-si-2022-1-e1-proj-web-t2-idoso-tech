@@ -2,76 +2,73 @@ const URL = 'http://localhost:3000/videos'
 
 window.onload = () => {
 
-  // CREATE or UPDATE - PROCEDIMENTO PARA CRIAR OU EDITAR UM PRODUTO
-  const videoForm = document.getElementById('video-form');
+  carregarVideos();
+};
+// CREATE or UPDATE - PROCEDIMENTO PARA CRIAR OU EDITAR UM PRODUTO
+const videoForm = document.getElementById('video-form');
 
-  videoForm.addEventListener('submit', (e) => {
-       
-    // RECUPERA O ID DO PRODUTO
-    let id = parseInt($('#edit-video-id').text());    
+videoForm.addEventListener('submit', (e) => {
+  // RECUPERA O ID DO VIDEO
+  let id = parseInt($('#edit-video-id').text());
 
-    // RECUPERA OS DADOS DO PRODUTO
-    const video = JSON.stringify({
-      id: document.getElementById('video-id').value,
-      nome: document.getElementById('video-nome').value,
-      descricao: document.getElementById('video-descricao').value,
-      url: document.getElementById('video-url').value
+  // RECUPERA OS DADOS DO PRODUTO
+  const video = JSON.stringify({
+    id: document.getElementById('video-id').value,
+    nome: document.getElementById('video-nome').value,
+    descricao: document.getElementById('video-descricao').value,
+    url: document.getElementById('video-url').value
   })
 
   if (id >= 0) {
     fetch(`${URL}/${id}`, {
-        method: 'PUT',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: video
+      method: 'PUT',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: video
     })
-    .then(res => res.json())
-    .then(() => location.reload());  
-}
-else{ 
+      .then(res => res.json())
+      .then(() => location.reload());
+  }
+  else {
     fetch(URL, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: video
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: video
     })
-    .then(res => res.json())
-    .then(() => location.reload());  
-}      
+      .then(res => res.json())
+      .then(() => location.reload());
+  }
 })
 
 // PROCEDIMENTO PARA RECUPERAR OS DADOS DE UM PRODUTO NA API
-  function getVideo(id){
-
-    if(id == 0){
-        $('#edit-video-id').text("");
-        $( "#video-id" ).prop( "disabled", false );
-        $('#video-id').val("");
-        $('#video-nome').val("");
-        $('#video-descricao').val("");
-        $('#video-url').val("");
-    }else{
-        $('#edit-video-id').text(id);
-        fetch(`${URL}/${id}`).then(res => res.json())    
-        .then(data => {
-            $( "#video-id" ).prop( "disabled", true );
-            $('#video-id').val(data.id);
-            $('#video-nome').val(data.nome);
-            $('#video-descricao').val(data.descricao);
-            $('#video-url').val(data.url);
-        });
-    }    
+function getVideo(id) {
+  if (id == 0) {
+    $('#edit-video-id').text("");
+    $("#video-id").prop("disabled", false);
+    $('#video-id').val("");
+    $('#video-nome').val("");
+    $('#video-descricao').val("");
+    $('#video-url').val("");
+  } else {
+    $('#edit-video-id').text(id);
+    fetch(`${URL}/${id}`).then(res => res.json())
+      .then(data => {
+        $("#video-id").prop("disabled", true);
+        $('#video-id').val(data.id);
+        $('#video-nome').val(data.nome);
+        $('#video-descricao').val(data.descricao);
+        $('#video-url').val(data.url);
+      });
   }
-
-  carregarVideos();
-};
+}
 
 const videoDelete = document.getElementById('btn-delete');
 
 videoDelete.addEventListener('click', (e) => {
- 
+
   let id = $('#id-video').text();
   fetch(`${URL}/${id}`, {
     method: 'DELETE',
@@ -99,7 +96,7 @@ const carregarVideos = () => {
                           <td>${video.descricao ? video.descricao : ""}</td>
                           <td>${video.url ? video.url : ""}</td>
                           <td>
-                          <a onclick="$('#id-video').text(${video.id});" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" type="button">
+                          <a onclick="getVideo(${video.id});" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal3" type="button">
                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
                           <path
                           d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
