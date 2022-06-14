@@ -1,11 +1,20 @@
 # Plano de Testes de Software
 
+Id | Página |Requisito Funcional| Funcionalidade | Cenário de Teste|
+---| ------ | ----------------- | -------------- | ----------------|
+001| Vídeos | x                 | Exibir os vídeos cadastrados | Ao navegar para a tela de vídeos, o sistema deve carregar todos os vídeos cadastrados, caso não tenha nenhum vídeo deve mostrar a mensagem "Nenhum vídeo encontrado".
+002| Vídeos | RF-003 |Pesquisa de Tutoriais por Assunto | Pré requisito, existir vídeo cadastrado. Após acessar a página de vídeos e o sistema mostrar os vídeos em tela, o usuário deverá clicar  na barra de pesquisa no topo da tela, digitar o termo a ser pesquisado  e o sistema deverá filtrar os vídeos baseado nos termos informados.
+003| Vídeos | x |Navegar para vídeo selecionado | Pré requisito, existir vídeo cadastrado. Após acessar a página de vídeos e o sistema mostrar os vídeos em tela, o usuário deverá clicar em um dos vídeos e o sistema deverá navegar para a tela do vídeo selecionado.
+
+-------------
+
 Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
 
 Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
- 
+
 ## Ferramentas de Testes (Opcional)
 
+---------
 Comente sobre as ferramentas de testes utilizadas.
  
 > **Links Úteis**:
@@ -18,7 +27,11 @@ Comente sobre as ferramentas de testes utilizadas.
 
 # Registro de Testes de Software
 
-Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
+Id do Teste | Resultado | Vídeo
+---| ------ | ---------- 
+001| O sistema carrega os vídeos do banco e quando não tem vídeo mostra mensage. | [NenhumVideoEncontrado](registro-de-testes/NenhumVideoEncontrado.gif)
+002| O sistema filtra os vídeos baseado nos termos informados. | [PesquisarVideo](registro-de-testes/pesquisarVideo.gif)
+003| Ao clicar no vídeo o sistema navega para a tela do vídeo selecionado. | [PesquisarVideo](registro-de-testes/pesquisarVideo.gif)
 
 ## Avaliação
 
