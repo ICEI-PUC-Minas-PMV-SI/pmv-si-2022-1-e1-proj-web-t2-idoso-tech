@@ -20,5 +20,28 @@
      align-items: flex-end;*/
      /*padding-right: 200px;*/
      margin-right: 20px;
- 
-  }
+ }
+
+
+.cabecalho{ text-align: center;
+}
+
+.linha{ background-color: rgb(127, 255, 225);
+        font-size:larger; 
+        font-weight: 400;
+       
+}
+.enviar {
+    .form button {
+        display: block;
+        padding: 1rem;
+        background: #0072c4;
+        color: #fff;
+        font: inherit;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.2s}
+      
+}

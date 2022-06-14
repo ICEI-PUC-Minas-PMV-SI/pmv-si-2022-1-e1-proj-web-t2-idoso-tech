@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-          <meta charset="UTF-8">
-          <meta http-equiv="X-UA-Compatible" content="IE=edge">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>fale-conosco</title>
-          <link rel="stylesheet" href="../assets/dist/css/bootstrap.min.css">
-          <link rel="stylesheet" href="../css/faleConosco.css">
-          <meta charset="UTF-8">
-          <title>Fale Conosco</title>
-  </head>
-  <body>
+      <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>fale-conosco</title>
+            <link rel="stylesheet" href="../assets/dist/css/bootstrap.min.css">
+            <link rel="stylesheet" href="../css/faleConosco.css">
+            <meta charset="UTF-8">
+            <title>Fale Conosco</title>
+      </head>
+      <body>
+            <header class="d-flex flex-wrap justify-content-between py-3 mb-4 border-bottom">
+            <ul class="nav col-11">
+            <li><a href="#" class="nav-link px-2 link-secondary">FaleConosco </a></li>
+            </ul>
 
-         <header class="d-flex flex-wrap justify-content-between py-3 mb-4 border-bottom">
-  
-         <ul class="nav col-11">
-          <li><a href="#" class="nav-link px-2 link-secondary">FaleConosco </a></li>
-           </ul>
-  
-    <div class="dropdown col-1 text-end">
+      <div class="dropdown col-1 text-end">
           <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1"
           data-bs-toggle="dropdown" aria-expanded="false">
           <img src="../img/perfil.png" alt="perfil-admin" width="48" height="48" class="rounded-circle">
@@ -27,60 +25,61 @@
           <li><a class="dropdown-item" href="#">Sair</a></li>
         </ul>
     </div>
-<head>
-        <h1>fale Conosco</h1>
-
-        <h2>Temos uma equipe especializada para resolver sua requisição.</h2>
-
-        <p>&nbsp;</p>
-        
-        <p>Preencha as informações abaixo e em até 4 horas úteis entraremos em contato.</p>
-        
-        <p>&nbsp;</p>
-        
-        <p>Nosso horário de atendimento é:<br><span style="color: green">•</span> &nbsp; &nbsp;Segunda-feira a sexta-feira - 8:00h as 19:00h<br><span style="color: red">•</span> &nbsp; &nbsp;Sábado – 8:00h as 14:00h</p>
-  </div>
-         <p>Vamos falar com você assim que possível para resolver a solicitação, ok?</p>
-         <div>
-            <p>
-            <img class="d-block mx-auto mb-4 w-100 h-auto" src="../assets/images/idoso.jpg" alt="idoso-no-computador" width="1200" height="768"></p>
-  <main>
-        </head>
-      <div 
-              class="d-flex justify-content-end"> 
-      </div>
-      <div 
-        class="table-responsive">
-  <table 
-      class="table table-hover table-info">
-  </main>
+    <main>
+      <title>fale Conosco</title>
+            <h1>fale Conosco</h1>
+            <article class="cabecalho">
+            <h2> temos uma equipe especializada para resolver sua requisição.</h2></article>
+      <article class="linha">
+            <p>Preencha as informações abaixo e em até 4 horas úteis entraremos em contato.</p>
+            <p>Nosso horário de atendimento é:
+                  <br>•Segunda-feira a sexta-feira - 8:00h as 19:00h 
+                  <br>•Sábado – 8:00h as 14:00h
+            <p>Vamos falar com você assim que possível para resolver a solicitação, ok?</p>
+      </article>
+            <input type="image"  src="../assets/images/idoso.jpg" alt="idoso-no-computador" width="1200" height="768"></p>
+      
+      </head>
+      
+            <div class="d-flex justify-content-end"> </div>
+          <div class="table-responsive"><table class="table table-hover table-info">
+      
+      </main>
 
         <thead>
-          <tr>
-            <h3>formulario de Atendimento:</h3>
+            <tr>
+                  <h3>formulario de Atendimento:</h3>
       <tbody>
          <tr>
                <tfoot>
          <thead>
-                <td>E-mail:</br> 
-                  <input type="text" size="70" name="nome"><td>
+             </form>
+                  <td>E-mail:</br>
+                  <label for="E-mail" id="email"></label>
+                  <form action="https://formsubmit.co/b.matheus203@gmail.com" method="POST" clas="form">
+                  <input type="hidden" name="_captcha" value="false">
+                  <input type="text" size="30" name="E-mail" placeholder="E-mail" required></td>
                   <td><br>Nome do usuario:</br>
-                  <input type="text" size="40" name="nome"></td>
+                  <label for="nome"id="nome"></label>
+                  <input type="text" size="30" name="nome" placeholder="Nome do usuario" required></td>
+                  <td><br>mensagem:</br>
+                  <label for="mensagem" id="mensagem"></label>
+                  <input type="text" size="30" name="mensagem" placeholder="mensagem" required></td>
                   <td><br>formulario:</br>
-                  <form method="post" action="cadastrar-enquete.php">
-            <select name="time">
-                  <option value="bota"></option>
+                  <label for="formulario" id="formulario"></label>
+                  <select name="time">
+                  <option value="boota"></option>
                   <option value="bota">duvidas</option>
                   <option value="fla">atendimento</option>
                   <option value="flu">melhorias</option>
+                  <input type="submit" value="Enviar"></select>
+                  <label for="Enviar" class="enviar"></label>
+                  <input type="reset" value="apagar" class="enviar">
+                  <input type="hidden"name="_next" value="http://127.0.0.1:5500/src/html/obrigado.html"/>
+                  <label for="Apagar" id="apagar"></label>
+                  </form>
             </select>
-            <form action="https://www.pucminas.br/destaques/Paginas/default.aspx" method="POST"> 
-              <input type="hidden" name="recipient" value="mariaclaudia@gmail.com"> <!-- Pode ser qualquer endereço de email -->
-              <input type="hidden" name="redirect" value="https://www.pucminas.br/destaques/Paginas/default.aspx"> <!-- Após o envio, o usuário será redirecionado para a página configurada aqui -->
-              <input type="hidden" name="subject" value="teste de assunto">  <!-- Assunto da mensagem -->
-              <input type="hidden" name="email" value="idoso.tech@gmail.com">   <!-- Deve ser uma conta de email ativa em seu domínio -->
-                  <input type="submit" value="Enviar">
-                   <input type="reset" value="apagar">
+           
                 </form>
             </tfoot>
          </thead>
@@ -88,4 +87,4 @@
        </div>
 
       </body>
-       <head>
+<head>
