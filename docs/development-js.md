@@ -1,5 +1,5 @@
-# Banco de dados
-O projeto utilizou o json server como banco de dados.
+# Armazenamento de dados back-end
+O projeto utilizou o json server como armazenamento de dados back-end.
 
 # Estrutura de dados
 
