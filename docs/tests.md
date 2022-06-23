@@ -42,6 +42,30 @@ Id do Teste | Resultado | Vídeo
 006| Ao clicar no vídeo o sistema navega para a tela do vídeo selecionado. | [EditarVideo](registro-de-testes/EditarVideo.gif)
 007| Ao clicar no vídeo o sistema exclui o vídeo selecionado. | [DeletarVideo](registro-de-testes/DeletarVideo.gif)
 
+# Registro de testes 
+
+## ID 001, 002 e 003 Nenhum vídeo encontrado e Pesquisar Vídeos.
+
+![pesquisarVideo](https://user-images.githubusercontent.com/38298179/175183450-6a5f1d77-a7ce-4fab-bc95-99aeb24898a2.gif)
+
+![NenhumVideoEncontrado](https://user-images.githubusercontent.com/38298179/175183469-b31d2edc-91b0-4d58-a8a8-eb0d5d34531c.gif)
+
+## ID 004 Gerenciar Vídeos
+
+![TelaInicialGerenciarVideos](https://user-images.githubusercontent.com/38298179/175183516-d4b44733-02ba-41be-ae0e-ccde3aa96632.png)
+
+## ID 005 Inserir Vídeo
+
+![InserirVideo](https://user-images.githubusercontent.com/38298179/175183557-e3567677-57bd-4c9d-8b52-40ab73296a54.gif)
+
+## ID 006 Editar Vídeo
+
+![EditarVideo](https://user-images.githubusercontent.com/38298179/175183594-1147a57a-6ea1-426b-b9ab-6d06ea8b48fb.gif)
+
+## ID 007 Deletar Vídeo
+
+![DeletarVideo](https://user-images.githubusercontent.com/38298179/175183829-a374496d-b3ac-4211-80a5-7d907f32ccf7.gif)
+
 
 ## Avaliação
 
