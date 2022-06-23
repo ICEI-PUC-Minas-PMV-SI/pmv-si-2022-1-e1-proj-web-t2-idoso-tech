@@ -53,7 +53,7 @@ informações do localizador em seu smartphone.
 | RF-009 | Usuários Cadastrados (Administrador) | MÉDIA      |
 | RF-010 | Tela de SAC| BAIXA  |
 | RF-011 | Tela de CHAT com suporte| MÉDIA  |
-
+| RF-012 | Tela de Formulário para Fácil Acesso| MÉDIA  |
 
 ### Requisitos não Funcionais
 
