@@ -50,7 +50,7 @@ informações do localizador em seu smartphone.
 | RF-006 | Preenchimento da pesquisa de satisfação                  | MÉDIA       |
 | RF-007 | Processo de Onboarding na plataforma               | ALTA       |
 | RF-008 | fale conosco | MÉDIA  |
-| RF-009 | Usuário Cadastrados (Administrador) | MÉDIA      |
+| RF-009 | Usuários Cadastrados (Administrador) | MÉDIA      |
 | RF-010 | Tela de SAC| BAIXA  |
 | RF-011 | Tela de CHAT com suporte| MÉDIA  |
 
