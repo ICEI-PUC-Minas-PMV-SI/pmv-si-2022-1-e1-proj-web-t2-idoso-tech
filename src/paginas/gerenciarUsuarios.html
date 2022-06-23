@@ -1,78 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>gerenciarVideos</title>
-  <link rel="stylesheet" href="../assets/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="GerenciarUsuario.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="../css/GerenciarUsuario.css">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,200;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/gerenciarUsuarios.css">
+    <script src="../js/gerenciarUsuarios.js" defer></script>
+</head>
+<body>
+  <header>
+      <h1 class="header-title">Cadastro de Clientes</h1>
+  </header>
+    <main>
+        <button type="button" class="button blue mobile" id="cadastrarCliente">Cadastrar Cliente</button>
+        <table id="tableClient" class="records">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
 
-  <body>
-    <header class="d-flex flex-wrap justify-content-between py-3 mb-4 border-bottom">
-
-      <ul class="nav col-11">
-        <li><a href="#" class="nav-link px-2 link-secondary">Gerenciador de Videos </a></li>
-      </ul>
-
-      <div class="dropdown col-1 text-end">
-        <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1"
-          data-bs-toggle="dropdown" aria-expanded="false">
-          <img src="../img/perfil.png" alt="perfil-admin" width="48" height="48" class="rounded-circle">
-        </a>
-        <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
-          <li><a class="dropdown-item" href="#">Sair</a></li>
-        </ul>
-      </div>
-    </header>
-
-<main>
-  <div class="d-flex justify-content-end">
-
-
-  </div>
-  <div class="table-responsive">
-      <table class="table table-hover table-info">
-        <thead>
-          <tr>
-
-            <th scope="col">Usuario</th>
-            <th scope="col">Data de Cadastro Inicial</th>
-            <th scope="col">Situação</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-
-            <td>Maria </td>
-            <td> <time>17/04/2022</time></td>
-            <td><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-toggle-on" viewBox="0 0 16 16" color="green">
-                <path d="M5 3a5 5 0 0 0 0 10h6a5 5 0 0 0 0-10H5zm6 9a4 4 0 1 1 0-8 4 4 0 0 1 0 8z"/>
-              </svg>Online</td>
-         </tr>
-         <tr>
-            <td>Jose</td>
-            <td><time>05/05/2022</time></td>
-            <td><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-toggle2-off" viewBox="0 0 16 16" color="Red">
-                <path d="M9 11c.628-.836 1-1.874 1-3a4.978 4.978 0 0 0-1-3h4a3 3 0 1 1 0 6H9z"/>
-                <path d="M5 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm0 1A5 5 0 1 0 5 3a5 5 0 0 0 0 10z"/>
-              </svg>Offline</td>
-        </tr>
-          <tr>
-            <td>Pedro</td>
-            <td><time>06/06/2022</time></td>
-            <td><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-toggle-on" viewBox="0 0 16 16" color="green">
-              <path d="M5 3a5 5 0 0 0 0 10h6a5 5 0 0 0 0-10H5zm6 9a4 4 0 1 1 0-8 4 4 0 0 1 0 8z"/>
-            </svg>Online</td></svg>
-          </tr>
-        </tbody>
-      </table>
-
-    </div>
-
-  </main>
-
+            </tbody>
+        </table>
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <header class="modal-header">
+                    <h2>Novo Cliente</h2>
+                    <span class="modal-close" id="modalClose">&#10006;</span>
+                </header>
+                <form id="form" class="modal-form">
+                    <input type="text" id="nome" data-index="new" class="modal-field" placeholder="Nome do Cliente"
+                        required>
+                    <input type="email" id="email" class="modal-field" placeholder="e-mail do Cliente" required>
+                </form>
+                <footer class="modal-footer">
+                    <button id="salvar" class="button green">Salvar</button>
+                    <button id="cancelar" class="button blue">Cancelar</button>
+                </footer>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
