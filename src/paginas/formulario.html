@@ -9,6 +9,7 @@
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
+
 <body>
     <div class="container">
         <header class="d-flex flex-wrap justify-content-between py-2 mb-4 border-bottom">
@@ -29,37 +30,68 @@
             </div>
         </header>
         <main>
-            <div class="mt-5">
-                <h3 class="my-3">Pergunta 1</h3> 
-                    <form>
-                        <div class="form-group">
-                            <input class="form-control form-control-lg" type="text" placeholder="Alternativa 1" readonly>
-                            <input class="form-control form-control-lg" type="text" placeholder="Alternativa 2" readonly>
-                            <input class="form-control form-control-lg" type="text" placeholder="Alternativa 3" readonly>
-                        </div>
-                    </form> <br>        
+            <div id="questionsForm" class="mt-5">
+                <form>    
+                    <div id="question1" class="my-5" style="display: block !important">
+                        <h3 class="my-3">Você deseja utilizar qual dos aparelhos?</h3>
+                        
+                        <div class="my-5"></div>
+                        <input id="q1aa" class="form-control form-control-lg" type="button" value="Celular" name="alternative" placeholder="1">
+                        <input id="q1ab" class="form-control form-control-lg" type="button" value="Computador" name="alternative" placeholder="2">
+                        
+                        <input type="button" class="my-4 btn btn-success" id="pass1" value="Enviar">
+                        <div class="clearfix"></div>
+                    </div>
+                    
+                    <div id="question2" style="display: none !important">
+                        <h3 class="my-3">Qual aplicativo você deseja utilizar?</h3>
+                        
+                        <div class="my-5"></div>
+                        <input id="q2aa" class="form-control form-control-lg" type="button" value="Whatsapp" name="alternative" placeholder="10">
+                        <input id="q2ab" class="form-control form-control-lg" type="button" value="Uber" name="alternative" placeholder="20">
+                        <input id="q2ac" class="form-control form-control-lg" type="button" value="123 Milhas" name="alternative" placeholder="30">
+                        
+                        <input type="button" class="my-4 btn btn-success" id="pass2" value="Enviar">
+                        <div class="clearfix"></div>
+                    </div>
+                    
+                    <div id="question3" style="display: none !important">
+                        <h3 class="my-3">O que você deseja fazer com o aplicativo?</h3>
+                        
+                        <div class="my-5"></div>
+                        <input id="q3aa" class="form-control form-control-lg" type="button" value="Baixar" name="alternative" placeholder="100">
+                        <input id="q3ab" class="form-control form-control-lg" type="button" value="Utilizar" name="alternative" placeholder="200">
+                        <input id="q3ac" class="form-control form-control-lg" type="button" value="Desinstalar" name="alternative" placeholder="300">
+                        
+                        <input type="button" class="my-4 btn btn-success" id="send" value="Enviar Formulário">
+                        <div class="clearfix"></div>
+                    </div>
+                </form> 
+            </div>
 
-                    <h3 class="my-3">Pergunta 2</h3>
-                    <form>
-                        <div class="form-group">
-                            <input class="form-control form-control-lg" type="text" placeholder="Alternativa 1" readonly>
-                            <input class="form-control form-control-lg" type="text" placeholder="Alternativa 2" readonly>
-                            <input class="form-control form-control-lg" type="text" placeholder="Alternativa 3" readonly>
-                        </div>
-                    </form> <br>
+            <div id="videoRedirect" class="container" style="display: none !important">
+                <h4 class="text-center">Muito obrigado!</h4>
+                <p class="fs-6 fw-bold">O vídeo para o seu problema é: </p>
 
-                    <h3 class="my-3">Pergunta 3</h3>
-                    <form>
-                        <div class="form-group">
-                            <input class="form-control form-control-lg" type="text" placeholder="Alternativa 1" readonly>
-                            <input class="form-control form-control-lg" type="text" placeholder="Alternativa 2" readonly>
-                            <input class="form-control form-control-lg" type="text" placeholder="Alternativa 3" readonly>
+                <div class="col d-flex flex-column align-items-center">
+                    <div class="card shadow-sm container">
+                        <div class="ratio ratio-16x9 mb-4">
+                            <div id="videoId" hidden></div>
+                                <iframe width="1280" height="720" id="video_src" class="embed-responsive-item" src="" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                            </div>
+                            
+                        <div class="card-body">
+                            <h6 id="nameVideo" class="text-center"></h6>
+                            <p id="descriptionVideo"></p>
                         </div>
-                    </form>
+                    </div>  
+                </div>
             </div>
         </main>
-    
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="../js/formulario.js"></script>
+
 </body>
 </html>
