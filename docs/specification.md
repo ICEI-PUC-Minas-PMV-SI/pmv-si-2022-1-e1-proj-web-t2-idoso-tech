@@ -54,6 +54,7 @@ informações do localizador em seu smartphone.
 | RF-010 | Tela de SAC| BAIXA  |
 | RF-011 | Tela de CHAT com suporte| MÉDIA  |
 | RF-012 | Tela de Formulário para Fácil Acesso| MÉDIA  |
+| RF-013 | Histórico de Vídeos na Tela de Vídeos| BAIXA  |
 
 ### Requisitos não Funcionais
 

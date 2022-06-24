@@ -9,7 +9,8 @@ Id | Página |Requisito Funcional| Funcionalidade | Cenário de Teste|
 005| Gerenciar Vídeos | RF-002 | Inserir novo vídeo |Ao clicar no botão novo vídeo, o sistema deve abrir um modal onde o administrador deverá preencher os campos de id, título, descrição e link do vídeo. Após está ação, o vídeo será inserido na página.
 006| Gerenciar Vídeos | x |Editar um vídeo | Ao clicar no botão de editar, o sistema abre um modal carregando os dados do vídeo previamente cadastrado e com isso, é possível editar os campos título, descrição e link do vídeo. O id do produto fica indisponível para edição.
 007| Gerenciar Vídeos | x |Deletar um vídeo | Ao clicar no botão de deletar, o sistema abre um modal solicitando a confirmação da exclusão do vídeo. Ao clicar em “Sim”, o vídeo é deletado.
-
+008| Formulário | RF-012 | Resposta a Perguntas do Formulário | O usuário irá responder as perguntas sobre seu problema, que farão que ele seja redirecionado para um vídeo de solução 
+009| Formulário | X | Redirecionamento de Vídeo | O redirecionamento será de acordo com as questões respondidas, e funcionará de acordo com o banco de dado de vídeos disponibilizado
 
 -------------
 
@@ -24,6 +25,8 @@ Id do Teste | Resultado | Vídeo
 005| O sistema insere um novo vídeo. | [InserirVideo](registro-de-testes/InserirVideo.gif)
 006| Ao clicar no vídeo o sistema navega para a tela do vídeo selecionado. | [EditarVideo](registro-de-testes/EditarVideo.gif)
 007| Ao clicar no vídeo o sistema exclui o vídeo selecionado. | [DeletarVideo](registro-de-testes/DeletarVideo.gif)
+008| O formulário irá apresentar as perguntas sobre o seu problema | [PerguntasFormulario](registro-de-testes/ResponderPerguntas.gif)
+009| Ao final do formulário, será apresentado o vídeo de solução | [VideoRedirecionado](registro-de-testes/VideoRedirecionado.gif)
 
 # Registro de testes 
 
@@ -48,3 +51,11 @@ Id do Teste | Resultado | Vídeo
 ## ID 007 Deletar Vídeo
 
 ![DeletarVideo](https://user-images.githubusercontent.com/38298179/175183829-a374496d-b3ac-4211-80a5-7d907f32ccf7.gif)
+
+## ID 008 Resposta a Perguntas do Formulário
+
+![PerguntasFormulario](registro-de-testes/ResponderPerguntas.gif)
+
+## ID 009 Redirecionamento a Vídeo de Solução
+
+![VideoRedirecionado](registro-de-testes/VideoRedirecionado.gif)
