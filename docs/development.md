@@ -14,7 +14,7 @@
 
 4) Tela Onboarding:
 
-![image](https://user-images.githubusercontent.com/91692537/168931900-aed9bd72-cf07-45cf-bbc3-92b74f18c86e.png)
+![image](img/onboarding.jpg)
 
 5) Tela vídeos
 
