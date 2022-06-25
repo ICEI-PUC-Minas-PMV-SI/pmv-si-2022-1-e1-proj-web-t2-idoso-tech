@@ -5,16 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="../css/GerenciarUsuario.css">
-    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,200;1,800&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="../css/gerenciarUsuarios.css">
     <script src="../js/gerenciarUsuarios.js" defer></script>
 </head>
+
 <body>
   <header>
-      <h1 class="header-title">Cadastro de Clientes</h1>
+      <h1 class="header-title">Usuários Cadastrados</h1>
   </header>
     <main>
         <button type="button" class="button blue mobile" id="cadastrarCliente">Cadastrar Cliente</button>
@@ -23,7 +20,8 @@
                 <tr>
                     <th>Nome</th>
                     <th>E-mail</th>
-                    <th>Ação</th>
+                    <th>Senhas</th>
+                    <th>Ações</th>
                 </tr>
             </thead>
             <tbody>
@@ -40,6 +38,7 @@
                     <input type="text" id="nome" data-index="new" class="modal-field" placeholder="Nome do Cliente"
                         required>
                     <input type="email" id="email" class="modal-field" placeholder="e-mail do Cliente" required>
+                    <input type="password" id="senha" class="modal-field" placeholder="senha Necessaria" required>
                 </form>
                 <footer class="modal-footer">
                     <button id="salvar" class="button green">Salvar</button>
@@ -48,6 +47,7 @@
             </div>
         </div>
     </main>
+
 </body>
 
 </html>

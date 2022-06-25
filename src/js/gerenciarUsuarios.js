@@ -52,6 +52,7 @@ const saveClient = () => {
         const client = {
             nome: document.getElementById('nome').value,
             email: document.getElementById('email').value,
+            senha: document.getElementById('senha').value
         }
         const index = document.getElementById('nome').dataset.index
         if (index == 'new') {
@@ -71,6 +72,7 @@ const createRow = (client, index) => {
     newRow.innerHTML = `
         <td>${client.nome}</td>
         <td>${client.email}</td>
+        <td>${client.senha}</td>
         <td>
             <button type="button" class="button green" id="edit-${index}">Editar</button>
             <button type="button" class="button red" id="delete-${index}" >Excluir</button>
@@ -93,6 +95,7 @@ const updateTable = () => {
 const fillFields = (client) => {
     document.getElementById('nome').value = client.nome
     document.getElementById('email').value = client.email
+    document.getElementById('senha').value=client.senha
     document.getElementById('nome').dataset.index = client.index
 }
 
@@ -124,6 +127,7 @@ const editDelete = (event) => {
 updateTable()
 
 // Eventos
+document.getElementById('')
 document.getElementById('cadastrarCliente')
     .addEventListener('click', openModal)
 
