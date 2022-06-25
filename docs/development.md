@@ -41,7 +41,8 @@
 ![image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-1-e1-proj-web-t2-idoso-tech/main/docs/img/ChatPage.png?token=GHSAT0AAAAAABTCBRGVF5LJX2CDRYDHKNLGYUMEXDQ)
 
 11) Gerenciar Usuarios 
-![gerenciadorDeUsuarios](https://user-images.githubusercontent.com/102393486/175427628-861565db-f5fb-4b56-8d5a-ce489fdfa727.jpg)
+
+![gerenciadorDeUsuarios](https://user-images.githubusercontent.com/102393486/175781404-9940b574-a245-418e-898d-fc7b5e27265a.jpg)
 
 
 12) Fale Conosco
