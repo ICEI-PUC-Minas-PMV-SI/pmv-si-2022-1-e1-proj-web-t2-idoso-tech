@@ -11,6 +11,9 @@ Id | Página |Requisito Funcional| Funcionalidade | Cenário de Teste|
 007| Gerenciar Vídeos | x |Deletar um vídeo | Ao clicar no botão de deletar, o sistema abre um modal solicitando a confirmação da exclusão do vídeo. Ao clicar em “Sim”, o vídeo é deletado.
 008| Formulário | RF-012 | Resposta a Perguntas do Formulário | O usuário irá responder as perguntas sobre seu problema, que farão que ele seja redirecionado para um vídeo de solução 
 009| Formulário | X | Redirecionamento de Vídeo | O redirecionamento será de acordo com as questões respondidas, e funcionará de acordo com o banco de dado de vídeos disponibilizado
+010| Gerenciar Usuários|RF-009| Editar|Ao cliclar em editar sera redirecionado um modal, onde o administrador podera editar as informações cadastradas do cliente como "nome" ,"senha" ou troca de "email". (todas as informações devem ser enviadas pelo "FaleConosco" para alterações)|
+011|Gerenciar Usuários|x| Excluir|Ao cliclar em excluir sera redirecionado um modal, onde o administrador podera excluir o cliente do sistema em caso o cliente abdicar do IdosoTech. (todas as informações devem ser enviadas pelo "FaleConosco" para alterações)|
+012|Gerenciar Usuários|x|Cadastrar Cliente|Ao cliclar em Cadastrar Cliente sera redirecionado um modal para um novo cadastro "manual" onde o administrardor irá realizar o cadastro, para auxiliar o cliente .(todas as informações devem ser enviadas pelo "FaleConosco" para alterações)|
 
 -------------
 
@@ -27,6 +30,8 @@ Id do Teste | Resultado | Vídeo
 007| Ao clicar no vídeo o sistema exclui o vídeo selecionado. | [DeletarVideo](registro-de-testes/DeletarVideo.gif)
 008| O formulário irá apresentar as perguntas sobre o seu problema | [PerguntasFormulario](registro-de-testes/ResponderPerguntas.gif)
 009| Ao final do formulário, será apresentado o vídeo de solução | [VideoRedirecionado](registro-de-testes/VideoRedirecionado.gif)
+010|O administrador podera editar as informações cadastradas do cliente| 
+
 
 # Registro de testes 
 
