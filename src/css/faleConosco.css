@@ -1,7 +1,5 @@
 .estilo-barra{
     background-color: blue;
-    
-     
  }
  
  .cor-fonte-nav{
@@ -23,11 +21,16 @@
  }
 
 
-.cabecalho{ text-align: center;
+.cabecalho{ 
+    text-align: center;
 }
 
-.linha{ background-color: rgb(127, 255, 225);
+.linha{ 
         font-size:larger; 
         font-weight: 400;
        
+}
+
+#select select{
+    width: 200px;
 }

@@ -1,48 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-      <head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Fale-Conosco</title>
-            <link rel="stylesheet" href="../assets/dist/css/bootstrap.min.css">
-            <link rel="stylesheet" href="../css/faleConosco.css">
-            <meta charset="UTF-8">
-            <title>Fale Conosco</title>
-      </head>
-      <body>
-            <header class="d-flex flex-wrap justify-content-between py-3 mb-4 border-bottom">
-            <ul class="nav col-11">
-            <li><a href="#" class="nav-link px-2 link-secondary">FaleConosco </a></li>
-            </ul>
 
-      <div class="dropdown col-1 text-end">
-          <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1"
-          data-bs-toggle="dropdown" aria-expanded="false">
-          <img src="../img/perfil.png" alt="perfil-admin" width="48" height="48" class="rounded-circle">
-          </a>
-           <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
-          <li><a class="dropdown-item" href="#">Sair</a></li>
-        </ul>
-    </div>
-    <main>
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="../assets/dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="../css/faleConosco.css">
+      <meta charset="UTF-8">
+
       <title>Fale Conosco</title>
-            <h1>Fale Conosco</h1>
-            <article class="cabecalho">
-            <h2> temos uma equipe especializada para resolver sua requisição.</h2></article>
-      <article class="linha">
-            <p>Preencha as informações abaixo e em até 4 horas úteis entraremos em contato.</p>
-            <p>Nosso horário de atendimento é:
-                  <br>•Segunda-feira a sexta-feira - 8:00h as 19:00h 
-                  <br>•Sábado – 8:00h as 14:00h
-            <p>Vamos falar com você assim que possível para resolver a solicitação, ok?</p>
-      </article>
-            <input type="image"  src="../assets/images/idoso.jpg" alt="idoso-no-computador" width="1200" height="768"></p>
+</head>
+<body>
+    <div class="container">
+          <header class="d-flex flex-wrap justify-content-between py-2 mb-4 border-bottom">
+
+                <ul class="nav col-2 col-lg-auto">
+                      <li><a href="./index.html" class="nav-link px-3 link-secondary">Fale Conosco</a></li>
+                </ul>
+
+                <div class="dropdown text-end">
+                      <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="https://github.com/mdo.png" alt="perfil-usuario" width="48" height="48"
+                                  class="rounded-circle">
+                      </a>
+                      <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+                            <li><a class="dropdown-item" href="index.html">Sair</a></li>
+                            <li><a class="dropdown-item" href="formulario.html">Formulario</a></li>
+                      </ul>
+                </div>
+          </header>
+          <main>
+            <div class="container">
+                  <h1>Fale Conosco</h1>
+                  <article class="cabecalho">
+                        <br>
+                        <h2> Temos uma equipe especializada para resolver sua requisição.</h2>
+                  </article>
+                  <article class="linha">
+                        <p>Preencha as informações abaixo e em até 4 horas úteis entraremos em contato.</p>
+                        <p>Nosso horário de atendimento é:
+                              <br>• Segunda-feira a sexta-feira - 8:00h as 19:00h
+                              <br>• Sábado – 8:00h as 14:00h
+                        <p>Vamos falar com você assim que possível para resolver a solicitação, ok?</p>
+                  </article>
+                  <input type="image" src="../assets/images/idoso.jpg" alt="idoso-no-computador" width="1200" height="768"></p>
+                  </head>
       
-      </head>
-      
-            <div class="d-flex justify-content-end"> </div>
-          <div class="table-responsive"><table class="table table-hover table-info">
+                  <div class="d-flex justify-content-end"></div>
+                  <div class="table-responsive">
+                        <table class="table table-hover table-info">
+                  </div>
+            </div>
+                    
       
       </main>
 
@@ -54,28 +65,28 @@
                <tfoot>
          <thead>
              </form>
-                  <td>E-mail:</br>
+                  <td>E-mail:
                   <label for="E-mail" id="email"></label>
                   <form action="https://formsubmit.co/b.matheus203@gmail.com" method="POST" clas="form">
                   <input type="hidden" name="_captcha" value="false">
-                  <input type="text" size="30" name="E-mail" placeholder="E-mail" required></td>
-                  <td><br>Nome do usuario:</br>
-                  <label for="nome"id="nome"></label>
-                  <input type="text" size="30" name="nome" placeholder="Nome do usuario" required></td>
-                  <td><br>mensagem:</br>
-                  <label for="mensagem" id="mensagem"></label>
-                  <input type="text" size="30" name="mensagem" placeholder="mensagem" required></td>
-                  <td><br>formulario:</br>
+                  <textarea id="E-mail" name="E-mail" rows="3" placeholder="e-mail" cols="50" required></textarea></td>
+                  <td><br>Nome do usuario:
+                  <label for="Nome"id="Nome"></label>
+                  <textarea id="Nome" name="Nome" rows="3" placeholder="nome" cols="30" required></textarea></td>
+                  <td><br>Mensagem:
+                        <label for="mensagem" id="mensagem"></label>
+                        <textarea id="Mensagem" name="Mensagem" rows="3" placeholder="Mensagem" cols="50" required></textarea></td>
+                  <td><br>Formulario:
                   <label for="formulario" id="formulario"></label>
                   <select name="time">
                   <option value="boota"></option>
                   <option value="bota">duvidas</option>
                   <option value="fla">atendimento</option>
                   <option value="flu">melhorias</option>
-                  <input type="submit" value="Enviar"></select>
-                  <label for="Enviar" class="enviar"></label>
+                  <input  type="submit" value="Enviar" ></select>
+                  <label for="Enviar" class="enviar" ></label>
                   <input type="reset" value="apagar" class="enviar">
-                  <input type="hidden"name="_next" value="http://127.0.0.1:5500/src/paginas/obrigado.html"/>
+                  <input type="hidden"name="_next" value="http://127.0.0.1:5501/src/paginas/obrigado.html"/>
                   <label for="Apagar" id="apagar"></label>
                   </form>
             </select>
@@ -88,3 +99,4 @@
 
       </body>
 <head>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
