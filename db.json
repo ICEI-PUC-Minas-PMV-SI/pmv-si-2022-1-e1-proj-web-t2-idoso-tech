@@ -14,7 +14,18 @@
       "id": 1,
       "nome": "Como instalar Whatsapp",
       "descricao": "Como instalar whatsapp em seu celular",
+<<<<<<< HEAD
       "url": "https://www.youtube.com/embed/djV11Xbc914?start=1"
+=======
+      "url": "https://www.youtube.com/embed/djV11Xbc914",
+      "avaliacao": {
+        "excelente": 41,
+        "bom": 22,
+        "regular": 38,
+        "ruim": 15,
+        "pessimo": 0
+      }
+>>>>>>> a3946ca0bf80cc3c1823b6f400781c358ac7175a
     },
     {
       "id": "2",

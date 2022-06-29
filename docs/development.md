@@ -14,7 +14,7 @@
 
 4) Tela Onboarding:
 
-![image](https://user-images.githubusercontent.com/91692537/168931900-aed9bd72-cf07-45cf-bbc3-92b74f18c86e.png)
+![image](img/onboarding.jpg)
 
 5) Tela vídeos
 
@@ -42,7 +42,9 @@
 
 11) Gerenciar Usuarios 
 
-![gerenciar usuarios](https://user-images.githubusercontent.com/102393486/170141788-b12b0f31-0541-4006-856e-3526472dbd5c.jpg)
+![gerenciadorDeUsuarios](https://user-images.githubusercontent.com/102393486/175783202-165772d9-0de2-4dfd-927c-a40779bf3651.jpg)
+
+
 
 12) Fale Conosco
 
