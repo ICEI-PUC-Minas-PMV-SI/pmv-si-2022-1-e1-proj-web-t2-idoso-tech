@@ -13,15 +13,8 @@
     {
       "id": 1,
       "nome": "Como instalar Whatsapp",
-      "descricao": "Como instalar whatsapp em seus celular",
-      "url": "https://www.youtube.com/embed/djV11Xbc914?start=1",
-      "avaliacao": {
-        "excelente": 41,
-        "bom": 22,
-        "regular": 38,
-        "ruim": 15,
-        "pessimo": 0
-      }
+      "descricao": "Como instalar whatsapp em seu celular",
+      "url": "https://www.youtube.com/embed/djV11Xbc914?start=1"
     },
     {
       "id": "2",
@@ -32,7 +25,7 @@
     {
       "id": "3",
       "nome": "Como Instalar Facebbok ",
-      "descricao": "Como Instalar Facebbok no seu celular",
+      "descricao": "Como Instalar Facebbok no seu celular facilmente",
       "url": "https://www.youtube.com/watch?v=_r8fIOHh85s"
     }
   ],
