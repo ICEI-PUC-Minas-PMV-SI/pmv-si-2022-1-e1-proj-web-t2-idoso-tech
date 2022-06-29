@@ -5,7 +5,7 @@ btn.addEventListener('click', function(){
 });
 
 function carregarUsuario(){
-    return fetch("http://localhost:3000/usuarios?email=${email}").then(resposta => {
+    return fetch("http://localhost:3000/senhas").then(resposta => { // troquei essa url, antes era http://localhost:3000/usuarios?email=${email}
         if(resposta.ok && resposta.status === 200) {
             return resposta.json();
         }

@@ -30,7 +30,7 @@ Id do Teste | Resultado | Vídeo
 007| Ao clicar no vídeo o sistema exclui o vídeo selecionado. | [DeletarVideo](registro-de-testes/DeletarVideo.gif)
 008| O formulário irá apresentar as perguntas sobre o seu problema | [PerguntasFormulario](registro-de-testes/ResponderPerguntas.gif)
 009| Ao final do formulário, será apresentado o vídeo de solução | [VideoRedirecionado](registro-de-testes/VideoRedirecionado.gif)
-010|O administrador podera editar as informações cadastradas do cliente| ![Editar](https://user-images.githubusercontent.com/102393486/175786164-e5ac39f7-ebfd-4944-834a-b5ca75b9af25.gif)
+010|O administrador podera editar as informações cadastradas do cliente| [Editar](https://user-images.githubusercontent.com/102393486/175786164-e5ac39f7-ebfd-4944-834a-b5ca75b9af25.gif)
 
 
 
