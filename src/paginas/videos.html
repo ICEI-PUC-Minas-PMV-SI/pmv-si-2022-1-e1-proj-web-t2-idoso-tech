@@ -12,26 +12,41 @@
 
 <body>
     <div class="container">
-        <header class="d-flex flex-wrap justify-content-between py-3 mb-4 border-bottom">
+        <header class="d-flex flex-wrap justify-content-between py-2 mb-4 border-bottom">
 
-            <ul class="nav col-12 col-lg-auto">
-                <li><a href="index.html" class="nav-link px-2 link-secondary">Tela inicial</a></li>
+            <div class="dropdown text-start">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                            <li class="nav-item dropdown">
+                                <button class="nav-link  border-0" id="navbarScrollingDropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false"><span class="navbar-toggler-icon"></span></button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="index.html">Home</a></li>
+                                    <li><a class="dropdown-item" href="onboarding.html">Onboarding</a></li>
+                                    <li><a class="dropdown-item" href="formulario.html">Formulário</a></li>
+                                    <li><a class="dropdown-item" href="faleConosco.html">Fale Conosco</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+              </div>
+
+            <ul class="nav col mt-2">
+                <li><a href="#" class="nav-link px-2 link-secondary">Menu</a></li>
             </ul>
 
-            <form class="w-75">
+            <form class="w-75 mt-2 me-3">
                 <input type="search" class="form-control" placeholder="Pesquisar vídeos" aria-label="Search"
                 onkeyup="search(event.target.value)" onchange="search(event.target.value)">
             </form>
 
             <div class="dropdown text-end">
-                <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1"
+                <a href="#" class="d-block link-dark text-decoration-none" id="dropdownUser1"
                     data-bs-toggle="dropdown" aria-expanded="false">
                     <img src="https://github.com/mdo.png" alt="perfil-usuario" width="48" height="48"
                         class="rounded-circle">
                 </a>
-                <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
-                    <li><a class="dropdown-item" href="#">Sair</a></li>
-                </ul>
             </div>
         </header>
         <main>

@@ -8,22 +8,41 @@
     <link rel="stylesheet" href="../css/gerenciarUsuarios.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-</head>
+
 <body>
-  <header class="d-flex flex-wrap justify-content-between py-3 mb-4 border-bottom">
-    <ul class="nav col-11">
-      <li><a href="#" class="nav-link px-2 link-secondary">Gerenciar usuários - acesso administrador</a></li>
+<header class="d-flex flex-wrap justify-content-between py-2 mb-4 border-bottom">
+
+    <div class="dropdown text-start mt-2">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item dropdown">
+                        <button class="nav-link border-0 ms-3" id="navbarScrollingDropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false"><span class="navbar-toggler-icon"></span></button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="index.html">Home</a></li>
+                            <li><a class="dropdown-item" href="onboarding.html">Onboarding</a></li>
+                            <li><a class="dropdown-item" href="formulario.html">Formulário</a></li>
+                            <li><a class="dropdown-item" href="videos.html">Videos</a></li>
+                            <li><a class="dropdown-item" href="feedback.html">Feedback</a></li>
+                            <li><a class="dropdown-item" href="gerenciarVideos.html">Gerenciar Vídeos</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <ul class="nav col mt-3">
+      <li><a href="#" class="nav-link px-2 link-secondary">Gerenciar usuários - Acesso Administrador</a></li>
     </ul>
     <div class="dropdown col-1 text-end">
-        <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1"
+        <a href="#" class="d-block link-dark text-decoration-none me-2" id="dropdownUser1"
           data-bs-toggle="dropdown" aria-expanded="false">
-          <img src="https://github.com/mdo.png" alt="perfil-usuario" width="48" height="48" class="rounded-circle">
+          <img src="./../img/IdosoTech.png" alt="perfil-usuario" width="65" height="65" class="rounded-circle">
         </a>
-        <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
-          <li><a class="dropdown-item" href="#">Sair</a></li>
-        </ul>
-    </header>
-    <main>
+    </div>
+</header>
+<main>
 <body>
   <header>
       <h1 class="header-title">Usuários Cadastrados</h1>
