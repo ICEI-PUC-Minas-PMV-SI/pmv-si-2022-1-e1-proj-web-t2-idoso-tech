@@ -1,60 +1,55 @@
 # Programação de Funcionalidades
 
-1) Tela Home:
+### 1) Página Fale Conosco
 
-![image](https://user-images.githubusercontent.com/91692537/168931679-26b55110-61a1-48b8-8047-60a4310c7af4.png)
+### 2) Página Home
 
-2) Tela logar:
+![TelaHome](https://user-images.githubusercontent.com/91692537/176714787-f2d491c2-800d-4c7d-b25b-5df335922336.png)
 
-![image](https://user-images.githubusercontent.com/91692537/168931786-d610ad46-e8d2-47e4-be63-1524537f71e5.png)
+### 3) Página login
 
-3) Tela cadastro:
+![TelaLogin](https://user-images.githubusercontent.com/91692537/176715238-fbab0a8f-b614-42b7-b79f-9918267ba5e6.png)
 
-![image](https://user-images.githubusercontent.com/91692537/168931840-51bc3634-9bd9-4f3e-bbeb-ad0c603ef770.png)
+### 4) Página cadastro
 
-4) Tela Onboarding:
+![TelaVadastro](https://user-images.githubusercontent.com/91692537/176715692-76f07dd1-6cdd-44c0-80d9-2e1a4c824e2f.png)
 
-![image](img/onboarding.jpg)
+### 5) Página Onboarding
 
-5) Tela vídeos
+![TelaOnboarding](https://user-images.githubusercontent.com/91692537/176715760-ca7fc9cc-a429-4967-9761-3846abee3ff0.png)
 
-![image](https://user-images.githubusercontent.com/91692537/168932446-536f0964-6f55-44f9-b705-4dcf3386bf4c.png)
+### 6) Página Formulário
 
-6) Tela vídeo
+![TelaFormulario1](https://user-images.githubusercontent.com/91692537/176716695-6afb6e33-e3a1-401b-bfd2-e9eec0cfa923.png)
+![TelaFormulario2](https://user-images.githubusercontent.com/91692537/176716709-10ecb368-51b0-49fd-a7b8-85f5ecda9d7d.png)
+![TelaFormulario3](https://user-images.githubusercontent.com/91692537/176716726-bd214612-cbb5-4f88-b4f9-72185f5c634f.png)
 
-![image](https://user-images.githubusercontent.com/91692537/168932538-53f8d2a7-9add-40db-ab48-0a852d450f5a.png)
+### 7) Página formulário vídeo resultado
 
-7) Feedback:
+### 8) Página vídeos
 
-![image](https://user-images.githubusercontent.com/91692537/168932578-e49f1533-3243-4bfe-b1ee-9698da58e6bb.png)
+![TelaVideos](https://user-images.githubusercontent.com/91692537/176718556-84eb1631-4d15-4db6-a619-b818a1ff7680.png)
 
-8) Gerenciar vídeos:
+### 9) Página vídeo selecionado
 
-![image](https://user-images.githubusercontent.com/91692537/168932638-36da556b-46a5-4d1e-b876-ed8af04468ed.png)
+![TelaVideoSelecionado](https://user-images.githubusercontent.com/91692537/176716049-3eb2ddfc-ad6f-4911-a939-efdb0570a2a3.png)
 
-9) Tela de Perguntas Frequentes (SAC):
+### 10) Página Gerenciar vídeos
 
-![image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-1-e1-proj-web-t2-idoso-tech/main/docs/img/SACPage.png?token=GHSAT0AAAAAABTCBRGVCXZRTEE6XLSKTHQ6YUMEXQA)
+![TelaGerenciarVideos](https://user-images.githubusercontent.com/91692537/176716229-5b9d0e50-448b-48c6-9be4-b0a023864abb.png)
 
-10) Chat:
+### 11) Página Feedback
 
-![image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-1-e1-proj-web-t2-idoso-tech/main/docs/img/ChatPage.png?token=GHSAT0AAAAAABTCBRGVF5LJX2CDRYDHKNLGYUMEXDQ)
+### 12) Página Gerenciar Usuarios 
 
-11) Gerenciar Usuarios 
-
-![gerenciadorDeUsuarios](https://user-images.githubusercontent.com/102393486/175783202-165772d9-0de2-4dfd-927c-a40779bf3651.jpg)
+![TelaGerenciarUsuarios](https://user-images.githubusercontent.com/91692537/176716574-743ce84a-b6ed-4f9c-818c-1ec21fab45b2.png)
 
 
 
-12) Fale Conosco
 
-![fale conosco](https://user-images.githubusercontent.com/102393486/170141832-19e3f67e-06f6-4b11-8e21-ef2e2d643f7c.jpg)
 
-13) Formulário
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-1-e1-proj-web-t2-idoso-tech/blob/main/docs/img/Form.png?raw=true)
 
-14) Histórico
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-1-e1-proj-web-t2-idoso-tech/blob/main/docs/img/BrowsingHistory.png?raw=true)
+
 
