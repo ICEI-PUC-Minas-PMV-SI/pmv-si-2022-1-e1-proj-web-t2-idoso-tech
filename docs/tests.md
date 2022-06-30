@@ -24,10 +24,10 @@ Id do Teste | Resultado | Vídeo
 001| O sistema carrega os vídeos do banco e quando não tem vídeo mostra mensage. | [NenhumVideoEncontrado](registro-de-testes/NenhumVideoEncontrado.gif)
 002| O sistema filtra os vídeos baseado nos termos informados. | [PesquisarVideo](registro-de-testes/pesquisarVideo.gif)
 003| Ao clicar no vídeo o sistema navega para a tela do vídeo selecionado. | [PesquisarVideo](registro-de-testes/pesquisarVideo.gif)
-004| O sistema carrega os vídeos do banco de dados. | [TelaInicialGerenciarVideos](https://user-images.githubusercontent.com/91692537/173960460-99a9d18b-9617-4ff7-bd5d-4ca4723e2550.png)
-005| O sistema insere um novo vídeo. | [InserirVideo](registro-de-testes/InserirVideo.gif)
-006| Ao clicar no vídeo o sistema navega para a tela do vídeo selecionado. | [EditarVideo](registro-de-testes/EditarVideo.gif)
-007| Ao clicar no vídeo o sistema exclui o vídeo selecionado. | [DeletarVideo](registro-de-testes/DeletarVideo.gif)
+004| O sistema carrega os vídeos do banco de dados. | [TelaGerenciarVideos](https://user-images.githubusercontent.com/91692537/176716229-5b9d0e50-448b-48c6-9be4-b0a023864abb.png)
+005| O sistema insere um novo vídeo. | [Inserir](https://user-images.githubusercontent.com/91692537/176732107-bddcb857-57f4-41f4-bd1b-3fdf2f7e8c85.gif)
+006| Ao clicar no vídeo o sistema navega para a tela do vídeo selecionado. | [Editar](https://user-images.githubusercontent.com/91692537/176732819-43e74f75-3ae9-44e4-bb0b-eb59cc3fecf9.gif)
+007| Ao clicar no vídeo o sistema exclui o vídeo selecionado. | [Deletar](https://user-images.githubusercontent.com/91692537/176733069-fb5e26f9-1a93-4f57-add5-712229b7e202.gif)
 008| O formulário irá apresentar as perguntas sobre o seu problema | [PerguntasFormulario](registro-de-testes/ResponderPerguntas.gif)
 009| Ao final do formulário, será apresentado o vídeo de solução | [VideoRedirecionado](registro-de-testes/VideoRedirecionado.gif)
 010|O administrador podera editar as informações cadastradas do cliente| [Editar](https://user-images.githubusercontent.com/102393486/175786164-e5ac39f7-ebfd-4944-834a-b5ca75b9af25.gif)
@@ -44,19 +44,18 @@ Id do Teste | Resultado | Vídeo
 
 ## ID 004 Gerenciar Vídeos
 
-![TelaInicialGerenciarVideos](https://user-images.githubusercontent.com/38298179/175183516-d4b44733-02ba-41be-ae0e-ccde3aa96632.png)
+![TelaGerenciarVideos](https://user-images.githubusercontent.com/91692537/176716229-5b9d0e50-448b-48c6-9be4-b0a023864abb.png)
 
 ## ID 005 Inserir Vídeo
 
-![InserirVideo](https://user-images.githubusercontent.com/38298179/175183557-e3567677-57bd-4c9d-8b52-40ab73296a54.gif)
+![Inserir](https://user-images.githubusercontent.com/91692537/176732107-bddcb857-57f4-41f4-bd1b-3fdf2f7e8c85.gif)
 
 ## ID 006 Editar Vídeo
-
-![EditarVideo](https://user-images.githubusercontent.com/38298179/175183594-1147a57a-6ea1-426b-b9ab-6d06ea8b48fb.gif)
+![Editar](https://user-images.githubusercontent.com/91692537/176732693-6dbfdbc2-3d5c-49fb-ba6d-963be364c64a.gif)
 
 ## ID 007 Deletar Vídeo
 
-![DeletarVideo](https://user-images.githubusercontent.com/38298179/175183829-a374496d-b3ac-4211-80a5-7d907f32ccf7.gif)
+![Deletar](https://user-images.githubusercontent.com/91692537/176733069-fb5e26f9-1a93-4f57-add5-712229b7e202.gif)
 
 ## ID 008 Resposta a Perguntas do Formulário
 
