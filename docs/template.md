@@ -1,6 +1,14 @@
+
 # Template padrão do site
 
-![TemplatePadrao](img/templatePadrao.png)
+### Acesso administrador
+
+![TemplatePadrão](https://user-images.githubusercontent.com/91692537/176712388-b7e46682-6304-465b-bd69-89bead43ae27.png)
+
+### Acesso usuário
+
+![TemplatePadrãoUsuario](https://user-images.githubusercontent.com/91692537/176712836-fc744e3c-becd-4d72-b71d-5dc47f0966a3.png)
+
 
 ### HTML
 O html esta contido na pasta paginas.
