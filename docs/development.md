@@ -7,7 +7,8 @@
 
 ### 2) Página Home
 
-![TelaHome](https://user-images.githubusercontent.com/91692537/176714787-f2d491c2-800d-4c7d-b25b-5df335922336.png)
+![TelaHome](https://user-images.githubusercontent.com/91692537/176800934-6e8229d5-24e1-4492-a618-22cd40ba19f8.png)
+
 
 ### 3) Página login
 
