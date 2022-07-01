@@ -30,6 +30,8 @@
 
 ### 7) Página formulário vídeo resultado
 
+![TelaVideoResultado](./img/ResultVideo.png)
+
 ### 8) Página vídeos
 
 ![TelaVideos](https://user-images.githubusercontent.com/91692537/176718556-84eb1631-4d15-4db6-a619-b818a1ff7680.png)
