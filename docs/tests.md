@@ -11,7 +11,7 @@ Id | Página |Requisito Funcional| Funcionalidade | Cenário de Teste|
 007| Gerenciar Vídeos | x |Deletar um vídeo | Ao clicar no botão de deletar, o sistema abre um modal solicitando a confirmação da exclusão do vídeo. Ao clicar em “Sim”, o vídeo é deletado.
 008| Formulário | RF-012 | Resposta a Perguntas do Formulário | O usuário irá responder as perguntas sobre seu problema, que farão que ele seja redirecionado para um vídeo de solução 
 009| Formulário | X | Redirecionamento de Vídeo | O redirecionamento será de acordo com as questões respondidas, e funcionará de acordo com o banco de dado de vídeos disponibilizado
-010| Gerenciar Usuários|RF-009| Editar Cliente|Ao clicar em editar será redirecionado um modal, onde o administrador podera editar as informações cadastradas do cliente, como "nome" ,"senha" ou troca de "email". (todas as informações devem ser enviadas pelo "FaleConosco" para alterações)|
+010| Gerenciar Usuários|RF-009| Editar Cliente|Ao clicar em editar será redirecionado um modal, onde o administrador podera editar as informações cadastradas do cliente, como "nome"  ou troca de "email". (todas as informações devem ser enviadas pelo "FaleConosco" para alterações)|
 011|Gerenciar Usuários|x| Excluir Cliente|Ao clicar em excluir sera redirecionado um modal, onde o administrador podera excluir o cliente do sistema, em caso o cliente se abdicar do IdosoTech. (todas as informações devem ser enviadas pelo "FaleConosco" para alterações)|
 012|Gerenciar Usuários|x|Cadastrar Cliente|Ao clicar em Cadastrar Cliente sera redirecionado um modal para um novo cadastro "manual" onde o administrardor irá realizar o cadastro, para auxiliar o cliente .(todas as informações devem ser enviadas pelo "FaleConosco" para alterações)|
 
@@ -31,6 +31,9 @@ Id do Teste | Resultado | Vídeo
 008| O formulário irá apresentar as perguntas sobre o seu problema | [PerguntasFormulario](registro-de-testes/ResponderPerguntas.gif)
 009| Ao final do formulário, será apresentado o vídeo de solução | [VideoRedirecionado](registro-de-testes/VideoRedirecionado.gif)
 010|O administrador podera editar as informações cadastradas do cliente| [Editar](https://user-images.githubusercontent.com/102393486/175786164-e5ac39f7-ebfd-4944-834a-b5ca75b9af25.gif)
+011|O administrador podera Excluir as informações cadastradas do cliente| [Excluir](https://user-images.githubusercontent.com/102393486/176815250-88b25355-2a7a-4bf6-9f92-90ce1d1b2ecc.gif)
+012|O administrador podera cadastrar as informações do Cliente| [Cadastrar Cliente](https://user-images.githubusercontent.com/102393486/176815207-cd6089c8-3646-48c0-b2fc-9e964fa3affe.gif)
+
 
 
 
@@ -66,12 +69,15 @@ Id do Teste | Resultado | Vídeo
 ![VideoRedirecionado](registro-de-testes/VideoRedirecionado.gif)
 
 ## ID 010 Editar Cliente
-![Editar](https://user-images.githubusercontent.com/102393486/175786216-8e2c6c61-a120-4c50-92bc-dc6deeca488e.gif)
+![Editar](https://user-images.githubusercontent.com/102393486/176815367-9e193fdc-2084-4c35-8300-bfdaeaf06f67.gif)
+
 
 ## ID 011 Excluir Cliente
-![excluir](https://user-images.githubusercontent.com/102393486/175786268-fc8e3c44-4c72-477b-b8f2-bd937d8b538c.gif)
+![Excluir](https://user-images.githubusercontent.com/102393486/176815388-1a2a3143-034e-42e7-a7dc-1f13a350d1c7.gif)
+
 
 
 ## ID 012 Cadastrar Cliente
-![cadastro](https://user-images.githubusercontent.com/102393486/175786421-0acd4edc-40be-40ed-a845-11244725289f.gif)
+![Cadastrar Cliente](https://user-images.githubusercontent.com/102393486/176815399-6cd65ae3-c59b-47a7-8f96-361fb9d07c18.gif)
+
 
