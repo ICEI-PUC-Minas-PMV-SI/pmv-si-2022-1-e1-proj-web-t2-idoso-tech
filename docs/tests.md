@@ -22,8 +22,8 @@ Id | Página |Requisito Funcional| Funcionalidade | Cenário de Teste|
 Id do Teste | Resultado | Vídeo
 ---| ------ | ---------- 
 001| O sistema carrega os vídeos do banco e quando não tem vídeo mostra mensage. | [NenhumVideoEncontrado](registro-de-testes/NenhumVideoEncontrado.gif)
-002| O sistema filtra os vídeos baseado nos termos informados. | [PesquisarVideo](registro-de-testes/pesquisarVideo.gif)
-003| Ao clicar no vídeo o sistema navega para a tela do vídeo selecionado. | [PesquisarVideo](registro-de-testes/pesquisarVideo.gif)
+002| O sistema filtra os vídeos baseado nos termos informados. | [PesquisarVideos](https://user-images.githubusercontent.com/91692537/176893585-fa179005-d747-48b0-bfc4-94372e6dee5f.gif)
+003| Ao clicar no vídeo o sistema navega para a tela do vídeo selecionado. | [PesquisaVideoSelecionado](https://user-images.githubusercontent.com/91692537/176893712-dd3c8e16-2f10-4915-8a1e-8b318ad250e8.gif)
 004| O sistema carrega os vídeos do banco de dados. | [TelaGerenciarVideos](https://user-images.githubusercontent.com/91692537/176716229-5b9d0e50-448b-48c6-9be4-b0a023864abb.png)
 005| O sistema insere um novo vídeo. | [Inserir](https://user-images.githubusercontent.com/91692537/176732107-bddcb857-57f4-41f4-bd1b-3fdf2f7e8c85.gif)
 006| Ao clicar no vídeo o sistema navega para a tela do vídeo selecionado. | [Editar](https://user-images.githubusercontent.com/91692537/176732819-43e74f75-3ae9-44e4-bb0b-eb59cc3fecf9.gif)
@@ -39,11 +39,17 @@ Id do Teste | Resultado | Vídeo
 
 # Registro de testes 
 
-## ID 001, 002 e 003 Nenhum vídeo encontrado e Pesquisar Vídeos.
-
-![pesquisarVideo](https://user-images.githubusercontent.com/38298179/175183450-6a5f1d77-a7ce-4fab-bc95-99aeb24898a2.gif)
+## ID 001 Nenhum vídeo encontrado
 
 ![NenhumVideoEncontrado](https://user-images.githubusercontent.com/38298179/175183469-b31d2edc-91b0-4d58-a8a8-eb0d5d34531c.gif)
+
+## ID 002 Pesquisa Vídeo
+
+![PesquisarVideos](https://user-images.githubusercontent.com/91692537/176894160-38f3cee3-705d-443d-b7a0-ca873414ce8b.gif)
+
+## ID 003 Pesquisa Vídeo Selecionado
+
+![PesquisaVideoSelecionado](https://user-images.githubusercontent.com/91692537/176894181-91b53953-b324-4e88-b5a2-28d6c7468cad.gif)
 
 ## ID 004 Gerenciar Vídeos
 
