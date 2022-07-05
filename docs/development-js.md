@@ -21,7 +21,7 @@ O projeto utilizou o json server como armazenamento de dados back-end.
       "id": 1,
       "nome": "Como instalar Whatsapp",
       "descricao": "Como instalar whatsapp em seu celular",
-      "url": "https://www.youtube.com/embed/djV11Xbc914",
+      "url": "https://www.youtube.com/embed/pSzAFlKw0EA",
       "avaliacao": {
         "excelente": 41,
         "bom": 22,
