@@ -21,7 +21,7 @@ Id | Página |Requisito Funcional| Funcionalidade | Cenário de Teste|
 
 Id do Teste | Resultado | Vídeo
 ---| ------ | ---------- 
-001| O sistema carrega os vídeos do banco e quando não tem vídeo mostra mensage. | [NenhumVideoEncontrado](registro-de-testes/NenhumVideoEncontrado.gif)
+001| O sistema carrega os vídeos do banco e quando não tem vídeo mostra mensage. | [VideoNaoEncontrado](https://user-images.githubusercontent.com/91692537/177228035-badc112d-5115-4ed6-8d0e-f287aab074ce.gif)
 002| O sistema filtra os vídeos baseado nos termos informados. | [PesquisarVideos](https://user-images.githubusercontent.com/91692537/176893585-fa179005-d747-48b0-bfc4-94372e6dee5f.gif)
 003| Ao clicar no vídeo o sistema navega para a tela do vídeo selecionado. | [PesquisaVideoSelecionado](https://user-images.githubusercontent.com/91692537/176893712-dd3c8e16-2f10-4915-8a1e-8b318ad250e8.gif)
 004| O sistema carrega os vídeos do banco de dados. | [TelaGerenciarVideos](https://user-images.githubusercontent.com/91692537/176716229-5b9d0e50-448b-48c6-9be4-b0a023864abb.png)
@@ -41,7 +41,7 @@ Id do Teste | Resultado | Vídeo
 
 ## ID 001 Nenhum vídeo encontrado
 
-![NenhumVideoEncontrado](https://user-images.githubusercontent.com/38298179/175183469-b31d2edc-91b0-4d58-a8a8-eb0d5d34531c.gif)
+![VideoNaoEncontrado](https://user-images.githubusercontent.com/91692537/177228035-badc112d-5115-4ed6-8d0e-f287aab074ce.gif)
 
 ## ID 002 Pesquisa Vídeo
 
