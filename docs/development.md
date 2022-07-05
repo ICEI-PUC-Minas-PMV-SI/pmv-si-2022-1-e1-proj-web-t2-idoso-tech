@@ -1,4 +1,4 @@
-# Programação de Funcionalidades
+# Programação de Funcionalidades - HTML e CSS
 
 ### 1) Página Fale Conosco
 
@@ -44,9 +44,7 @@
 
 ![TelaGerenciarVideos](https://user-images.githubusercontent.com/91692537/176716229-5b9d0e50-448b-48c6-9be4-b0a023864abb.png)
 
-### 11) Página Feedback
-
-### 12) Página Gerenciar Usuarios 
+### 11) Página Gerenciar Usuarios 
 
 ![TelaGerenciarUsuarios](https://user-images.githubusercontent.com/91692537/176716574-743ce84a-b6ed-4f9c-818c-1ec21fab45b2.png)
 
